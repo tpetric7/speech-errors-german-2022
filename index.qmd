@@ -1,0 +1,6 @@
+# . {.unnumbered}
+
+```{r out.width="100%"}
+#| fig-link: <https://www.clipartmax.com/>
+knitr::include_graphics("pictures/clipart2906322_personal_use_only.png")
+```

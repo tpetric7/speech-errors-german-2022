@@ -1,0 +1,5 @@
+# Vorwort {.unnumbered #sec-vorwort}
+
+Dieses Buch ist eine Einführung in die Fehlerlinguistik, und zwar unter besonderer Berücksichtigung von Versprechern im Deutschen und Slowenischen.
+
+`Quarto Book` <https://quarto.org/>
