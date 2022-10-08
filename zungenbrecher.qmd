@@ -154,15 +154,15 @@ Die Daten ergaben *drei Kategorien von Konsonanten*: \
 - ungerundete Vokale (wie /a/ in \<La-de> ).
 :::
 
-„Das impliziert, dass *Zungenbrecher* hart sind, weil sich die *Repräsentationen* im Gehirn stark *überlappen*“, sagt Chang.
-Zum Beispiel werden '/s/' und '/š/' beide im Gehirn als Front-of-the-Tongue-Sounds (*koronale* Laute) gespeichert, so dass das Gehirn diese wahrscheinlich *häufiger verwechselt* als Laute, die von *verschiedenen Teilen* der Zunge bzw. Sprechwerkzeuge gebildet werden (z.B. /s/ vs. /m/).
-
-Englisches Beispiel: \
-*Sally sells seashells* (Sally verkauft Muscheln) ist knifflig. \
-*Mally sells sea-smells* (Mally verkauft Meeresgerüche) ist es nicht.
+Das impliziert, dass *Zungenbrecher* harte Aussprachebrocken sind, weil sich  (laut Chang) "die *Repräsentationen* im Gehirn stark *überlappen*".
 
 ::: {.callout-note appearance="simple" icon=true}
-## Beispiel
+### Beispiel
+Zum Beispiel werden '/s/' und '/š/' beide im Gehirn als Front-of-the-Tongue-Sounds (*koronale* Laute) gespeichert, so dass das Gehirn diese wahrscheinlich *häufiger verwechselt* als Laute, die von *verschiedenen Teilen* der Zunge bzw. Sprechwerkzeuge gebildet werden (z.B. /s/ vs. /m/).
+:::
+
+::: {.callout-note appearance="simple" icon=true}
+### Beispiel
 *Sally sells seashells* (Sally verkauft Muscheln) ist knifflig. \
 *Mally sells sea-smells* (Mally verkauft Meeresgerüche) ist es nicht.
 :::
