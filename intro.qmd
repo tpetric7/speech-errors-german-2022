@@ -1,10 +1,6 @@
 # Einführung {#sec-einfuhrung}
 
-```{r echo=FALSE, fig.keep='all', out.width="100%"}
-knitr::include_graphics("pictures/Diapozitiv5.PNG")
-```
-
-In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur Erfassung von linguistischen Merkmalen in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt..[^intro-1]
+In diesem Buch besprechen wir verschiedene Arten von sprachlichen Fehlleistungen und varietäten- bzw. textsortenbedingten Abweichungen von der standardsprachlichen Norm im Deutschen (teilweise auch im Slowenischen), die im Rahmen verschiedener Forschungsbereiche (Psycho- und Neurolinguistik, Spracherwerb, Sprachvarietäten, ...) diskutiert werden und auch für germanistische Studien von Interesse sein können.[^intro-1]
 
 [^intro-1]: Dieses Buch wurde mit `Quarto` <https://quarto.org/docs/books/> zusammengestellt.
 

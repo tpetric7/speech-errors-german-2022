@@ -1,5 +1,5 @@
 # Vorwort {.unnumbered #sec-vorwort}
 
-Dieses Buch ist eine Einführung in die Fehlerlinguistik, und zwar unter besonderer Berücksichtigung von Versprechern im Deutschen und Slowenischen.
+Dieses Buch enthält Begleittexte und Übungsvorschläge für das Studienfach *Versprecher* (sl. *Jezikovni spodrsljaji*, en. *speech errors*), das im Rahmen des Germanistikstudiums an der Universität Maribor als Wahlfach angeboten wird. 
 
-`Quarto Book` <https://quarto.org/>
+Das Buch wurde mit Hilfe der Programmierungssprache `R` <https://www.r-project.org/> und der von  `RStudio` <https://www.rstudio.com/> entwickelten Skriptsprache `Rmarkdown` <https://rmarkdown.rstudio.com/> auf der Entwickler-Platform `Github` <https://github.com/> als `Quarto Book` <https://quarto.org/> veröffentlicht. 

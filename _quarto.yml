@@ -6,24 +6,29 @@ book:
   # cover-image: "pictures/Diapozitiv1.PNG"
   # cover-image-alt: |
     # Textlinguistik - Einführung in Textmuster und Textsorten
-  title: "Fehlerlinguistik"
+  title: "Sprachliche Fehlleistungen und Abweichungen von der Norm"
   # title-block-banner: true
   # title-block-banner-color: "darkgreen"
-  subtitle: "Versprecher und andere Fehlerarten im Deutschen (und Slowenischen)"
+  subtitle: "Versprecher, Zungenbrecher, Zungenspitzenphänomen und neuere Sprachvarietäten im Deutschen (und Slowenischen)"
   author: "Teodor Petrič"
-  affiliation-title: "Univerza v Mariboru<br>Universität Maribor"
+  # affiliation-title: "Univerza v Mariboru<br>Universität Maribor"
   date: "2022-09-26"
   chapters:
     - index.qmd
     - preface.qmd
-    - part: "Teil 1:<br>Versprecher"
+    - part: "1<br>Unbewusste Fehlleistungen"
       chapters: 
         - intro.qmd
         - gegenstand.qmd
+        - zungenbrecher.qmd
+        - zungenspitze.qmd
         - versprecher.qmd
-    - part: "Teil 2:<br>Fehler in der Zweit- / Fremdsprache"
+    - part: "2<br>Normabweichungen und Normwandel"
       chapters: 
-        - l2_fehler.qmd
+        - spracherwerb.qmd
+        - medien.qmd
+        - multikulti.qmd
+        - gender.qmd
     - summary.qmd
     - references.qmd
   page-navigation: true
@@ -109,4 +114,3 @@ format:
     reference-doc: custom-reference.docx
 
 editor: source
-

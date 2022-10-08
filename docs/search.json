@@ -1,44 +1,93 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sprachliche Fehlleistungen und Abweichungen von der Norm",
+    "section": "",
+    "text": "."
+  },
+  {
     "objectID": "preface.html",
     "href": "preface.html",
     "title": "Vorwort",
     "section": "",
-    "text": "Quarto Book https://quarto.org/"
+    "text": "Dieses Buch enthält Begleittexte und Übungsvorschläge für das Studienfach Versprecher (sl. Jezikovni spodrsljaji, en. speech errors), das im Rahmen des Germanistikstudiums an der Universität Maribor als Wahlfach angeboten wird.\nDas Buch wurde mit Hilfe der Programmierungssprache R https://www.r-project.org/ und der von RStudio https://www.rstudio.com/ entwickelten Skriptsprache Rmarkdown https://rmarkdown.rstudio.com/ auf der Entwickler-Platform Github https://github.com/ als Quarto Book https://quarto.org/ veröffentlicht."
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  Einführung",
     "section": "",
-    "text": "In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur Erfassung von linguistischen Merkmalen in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt..1\nHinweise2:\n\nDas ist eine Definition (rmdnote).\n\n\nDas ist ein Tip oder eine Info (rmdtip).\n\n\nDas ist ein Arbeitsvorschlag (rmdrobot).\n\n\nDas ist der RStudio Logotyp (rmdrstudio).\n\n\nDas ist eine Warnung (rmdwarning).\n\n\nDas ist eine Fehlermeldung (rmderror).\n\n\n\n\n\n\n\n\nDieses Buch wurde mit Quarto https://quarto.org/docs/books/ zusammengestellt.↩︎\nClipart von https://www.clipartmax.com/↩︎"
+    "text": "In diesem Buch besprechen wir verschiedene Arten von sprachlichen Fehlleistungen und varietäten- bzw. textsortenbedingten Abweichungen von der standardsprachlichen Norm im Deutschen (teilweise auch im Slowenischen), die im Rahmen verschiedener Forschungsbereiche (Psycho- und Neurolinguistik, Spracherwerb, Sprachvarietäten, …) diskutiert werden und auch für germanistische Studien von Interesse sein können.1\nHinweise2:\n\nDas ist eine Definition (rmdnote).\n\n\nDas ist ein Tip oder eine Info (rmdtip).\n\n\nDas ist ein Arbeitsvorschlag (rmdrobot).\n\n\nDas ist der RStudio Logotyp (rmdrstudio).\n\n\nDas ist eine Warnung (rmdwarning).\n\n\nDas ist eine Fehlermeldung (rmderror).\n\n\n\n\n\n\n\n\nDieses Buch wurde mit Quarto https://quarto.org/docs/books/ zusammengestellt.↩︎\nClipart von https://www.clipartmax.com/↩︎"
   },
   {
     "objectID": "gegenstand.html",
     "href": "gegenstand.html",
     "title": "2  Gegenstand",
     "section": "",
-    "text": "In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur Erfassung von linguistischen Merkmalen in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt.1\nHinweise2:\n\nDas ist eine Definition (rmdnote).\n\n\nDas ist ein Tip oder eine Info (rmdtip).\n\n\nDas ist ein Arbeitsvorschlag (rmdrobot).\n\n\nDas ist der RStudio Logotyp (rmdrstudio).\n\n\nDas ist eine Warnung (rmdwarning).\n\n\nDas ist eine Fehlermeldung (rmderror).\n\n\n\n\n\n\n\n\nDieses Buch wurde mit Quarto https://quarto.org/docs/books/ zusammengestellt.↩︎\nClipart von https://www.clipartmax.com/↩︎"
+    "text": "In diesem Buch besprechen wir verschiedene Arten von sprachlichen Fehlleistungen und varietäten- bzw. textsortenbedingten Abweichungen von der standardsprachlichen Norm im Deutschen (teilweise auch im Slowenischen), die im Rahmen verschiedener Forschungsbereiche (Psycho- und Neurolinguistik, Spracherwerb, Sprachvarietäten, …) diskutiert werden und auch für germanistische Studien von Interesse sein können. Berücksichtigt werden folgende sprachliche Erscheinungen:\n\n\nZungenbrecher (en. tongue twisters, sl. lomilci jezika),\n\nZungenspitzen-Phänomen (en. tip of the tongue phenomenon, sl. izraz na konici jezika),\n\nVersprecher (en. speech errors, spoonerisms, sl. jezikovni spodrsljaji),\n\nsprachliche Fehler und Abweichungen im Spracherwerb (in diesem Buch mit Beschränkung auf den Erwerb der Zweit- und Fremdsprache),\n\nAbweichungen von der standardsprachlichen Norm in neueren Kommunikationsformen (z.B. Chats, Sms, u.ä.),\n\nAbweichungen von der standardsprachlichen Norm in multikulturellen Gemeinschaften (z.B. Kiezdeutsch),\n\nund sprachliche Probleme und Fehlleistungen bei der Anwendung von gendergerechter Sprache (Ersatz des generischen Maskulinums durch potentielle Konkurrenzformen).\n\n\nIn diesem Einführungskurs machen wir Sie mit einigen der grundlegenden Methoden zur Erfassung der linguistischen Merkmale in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt, in denen diese sprachlichen Besonderheiten zu beobachten sind."
   },
   {
-    "objectID": "versprecher.html",
-    "href": "versprecher.html",
-    "title": "3  Versprecher",
-    "section": "",
-    "text": "In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur Erfassung von linguistischen Merkmalen in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt.1\nHinweise2:\n\nDas ist eine Definition (rmdnote).\n\n\nDas ist ein Tip oder eine Info (rmdtip).\n\n\nDas ist ein Arbeitsvorschlag (rmdrobot).\n\n\nDas ist der RStudio Logotyp (rmdrstudio).\n\n\nDas ist eine Warnung (rmdwarning).\n\n\nDas ist eine Fehlermeldung (rmderror).\n\n\n\n\n\n\n\n\nDieses Buch wurde mit Quarto https://quarto.org/docs/books/ zusammengestellt.↩︎\nClipart von https://www.clipartmax.com/↩︎"
+    "objectID": "zungenbrecher.html#was-sind-zungenbrecher",
+    "href": "zungenbrecher.html#was-sind-zungenbrecher",
+    "title": "3  Zungenbrecher",
+    "section": "3.1 Was sind Zungenbrecher?",
+    "text": "3.1 Was sind Zungenbrecher?\nZungenbrecher (en. tongue twisters, sl. lomilci jezika), auch zuweilen Lautüberfüllungen genannt, sind ein bekanntes Phänomen sowohl beim Erwerb einer Sprache als auch in der alltäglichen Kommunikation, etwa in den öffentlichen Medien. Zungenbrecher sind beliebt, werden von zahlreichen Sprachteilnehmern gesammelt und dienen einerseits zur Belustigung oder Belebung eines Gesprächs oder des Unterrichts, andererseits aber auch zu Schulungszwecken, da sie auch beim Sprachtraining professioneller Mediensprecher von Nutzen sein können.1\n\n17 Zungenbrecher innerhalb einer Minute von Rap Squad One:\n{{ < video src=https://www.youtube.com/watch?v=VORRlhE7Hgk/ title= “17 Zungenbrecher in 1 Minute” start=“1” aspect-ratio=“16x9” width=“100%” > }}\n\n\n\n\nBei Zungenbrechern handelt es sich um eine Lautfolge, deren Aussprache nicht nur Lernern einer fremden Sprache schwerfällt sondern auch Erstsprachlern, insbesondere bei höherer Sprechgeschwindigkeit und auch bei Wiederholungsversuchen zu Korrekturzwecken. Die Aussprache von vielen Lautfolgen ist in der Erstsprache hochautomatisiert, so dass gängige Lautkombinationen in sprachlichen Äußerungen gewöhnlich kein Ausspracheproblem darstellen. Die Fehlerrate ist in der alltäglichen sprachlichen Kommunikation gering. In sprachlichen Konstruktionen, die sich als Zungenbrecher herausstellen, kommen jedoch ungewohnte Wortabfolgen, ähnliche Laute und Silben oder Wörter, die sich geringfügig voneinander unterscheiden, gehäuft vor. Diese Abweichungen von gewohnten sprachlichen Konstruktionen erfordert erhöhte Konzentration."
   },
   {
-    "objectID": "l2_fehler.html",
-    "href": "l2_fehler.html",
-    "title": "4  Fehler in Zweit- und Fremdsprache",
-    "section": "",
-    "text": "In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur Erfassung von linguistischen Merkmalen in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt.1\nHinweise2:\n\nDas ist eine Definition (rmdnote).\n\n\nDas ist ein Tip oder eine Info (rmdtip).\n\n\nDas ist ein Arbeitsvorschlag (rmdrobot).\n\n\nDas ist der RStudio Logotyp (rmdrstudio).\n\n\nDas ist eine Warnung (rmdwarning).\n\n\nDas ist eine Fehlermeldung (rmderror).\n\n\n\n\n\n\n\n\nDieses Buch wurde mit Quarto https://quarto.org/docs/books/ zusammengestellt.↩︎\nClipart von https://www.clipartmax.com/↩︎"
+    "objectID": "zungenbrecher.html#zungenbrecher-typen",
+    "href": "zungenbrecher.html#zungenbrecher-typen",
+    "title": "3  Zungenbrecher",
+    "section": "3.2 Zungenbrecher-Typen",
+    "text": "3.2 Zungenbrecher-Typen\nEinige Zungenbrecher beruhen auf dem schnellen Wechsel\n- zwischen ähnlichen, aber unterschiedlichen Phonemen (z.B. <s> [s] und <sch> [ʃ] ),\n- der Kombination von zwei verschiedenen Alternationsmustern,\n- vertrauten Konstruktionen in Lehnwörtern\n- oder anderen Merkmalen einer gesprochenen Sprache,\num schwer artikulierbar zu sein.\nZum Beispiel wurde der folgende Satz von William Poundstone als “der schwierigste der üblichen englischsprachigen Zungenbrecher” bezeichnet.2\n\n\n\n\n\n\nBeispiel\n\n\n\nThe seething sea ceaseth and thus the seething sea sufficeth us.\n(Das brodelnde Meer hört auf zu brodeln, und so genügt uns das brodelnde Meer.)\n\n\nDiese absichtlich schwierigen Ausdrücke waren im 19. Jahrhundert sehr beliebt. Der beliebte Zungenbrecher “she sells seashells” wurde ursprünglich 1850 als Sprachübung veröffentlicht. Der Begriff tongue twister (Zungenbrecher) wurde erstmals 1895 für diese Art von sprachlichen Ausdrücken verwendet.\nEine Reihe von Zungenbrechern verwendet eine Kombination aus Alliteration und Reim. Sie bestehen aus zwei oder mehr Lautfolgen, bei denen die Zunge zwischen den Silben neu positioniert werden muss, dann werden dieselben Laute in einer anderen Reihenfolge wiederholt.\n\n\n\n\n\n\nBeispiel\n\n\n\nFischers Fritze fischt frische Fische, frische Fische fischt Fischers Fritze\n\n\nIn anderen Zungenbrechern werden zusammengesetzte Wörter (Komposita) und ihre Stämme genutzt, um die Artikulation zu erschweren.\n\n\n\n\n\n\nBeispiel\n\n\n\nWoodchuck\nHow much wood would a woodchuck chuck\nif a woodchuck could chuck wood?\nA woodchuck would chuck all the wood he could chuck\nif a woodchuck would chuck wood.\n\n\n\nAndere Zungenbrecher haben die Form eines Wortes oder kurzen Phrase, die sich bei schneller Wiederholung als Zungenbrecher entpuppen.\n\n\n\n\n\n\nBeispiele\n\n\n\nNeu-Schwanstein\n\nToy boat\nCricket critic\nUnique New York\nA proper copper coffee pot\nRed leather, yellow leather\nIrish wristwatch, Swiss wristwatch\nPeggy Babcock\n\n\n\nIn manchen Fällen ergibt die inkorrekte Wiedergabe eines Spruchs einen vulgären sprachlichen Ausdruck, was wiederum der Belustigung dient.\n\n\n\n\n\n\nBeispiele\n\n\n\nKaplan zdaj spi, zdaj je.\n\nOld Mother Hunt had a rough cut punt\nNot a punt cut rough,\nBut a rough cut punt.\n\n\n\nEinige Zungenbrecher wirken selbst bei korrekter Aussprache lustig:\n\n\n\n\n\n\n\nBeispiele\n\n\n\nAre you copperbottoming those pans, my man?\nNo, I’m aluminiuming ’em Ma’am.\nPad kid poured curd pulled cold"
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "5  Summary",
+    "objectID": "zungenbrecher.html#verwechselbare-phoneme",
+    "href": "zungenbrecher.html#verwechselbare-phoneme",
+    "title": "3  Zungenbrecher",
+    "section": "3.3 Verwechselbare Phoneme",
+    "text": "3.3 Verwechselbare Phoneme\nDie klangliche Ähnlichkeit und Artikulationsähnlichkeit von bestimmten Sprachlauten scheint die Häufigkeit von sprachlichen Fehlleistungen zu fördern.\nIm Englischen werden die folgenden Phoneme häufig verwechselt:\n- /l/ mit /r/ (z.B. lot, rot),\n- /s/ mit /ʃ/ (z.B. sip, ship).\n- /f/ mit /p/ (z.B. fit, pit),\n- /w/ mit /r/ (z.B. which, rich)\n- u.a. laut einer MIT Konfusionsmatrix3(https://en.wikipedia.org/wiki/Tongue_twister)\nBestimmte Phoneme sind schwieriger auszusprechen als andere. Im Englischen kann man davon ausgehen, dass [tʃ] wie im Anlaut von en. <chair> schwieriger ist als ch [tʃ] wie in <share>, was bei entsprechender Verteilung im Satz einen Zungenbrecher heraufbeschwören kann.4(https://en.wikipedia.org/wiki/Tongue_twister) Dies führt gewöhnlich dazu, dass der schwierigere Laut durch den einfacheren ersetzt wird oder sogar getilgt wird. Entsprechendes gilt auch für Lenes (schwache Konsonanten) im Vergleich zu Fortes (starken Konsonanten). Starke Konsonanten (z.B. /ptk/ im Vergleich zu /bdg/) kommen in der Sprache häufiger vor, entwickeln sich im Spracherwerb früher und bekommen in phonologischen Phonemhierarchien Basispositionen zugewiesen. In Zungenbrechern werden schwierigere Sprachlaute daher häufiger mit starken Konsonanten ersetzt.\nZungenbrecher sind sprachspezifisch. In bestimmten Sprachen können beispielsweise auch die unterschiedliche Dauer von Vokalen oder prosodische Unterschiede zwischen Silben eine Rolle bei der Entstehung von Zungenbrechern spielen (etwa die Vokallänge).\n–> Malapropismus: Texas has a lot of electrical votes (electoral).\n–> Spoonerismus: verwechselte Sprachlaute in Wörtern und Phrasen.\n–> Shibboleth: Wort oder Phrase, die die Gruppenzugehörigkeit einer Person oder die Ausgrenzung von sozialen Gruppen ermöglicht (z.B. aufgrund der Aussprache, die nur von Einheimischen entsprechend realisiert wird und nicht von Außenseitern oder Fremden).\n\nIn Hip-Hop oder Rap-Musiktexten sind Zungenbrecher nicht selten.\nSprachliche Fehlleistungen wie die Zungenbrecher sind nicht nur auf die Lautsprache beschränkt, sondern auch in der Gebärdensprache beobachtbar (z.B. Vergebärdler)."
+  },
+  {
+    "objectID": "zungenbrecher.html#erklärungsversuche",
+    "href": "zungenbrecher.html#erklärungsversuche",
+    "title": "3  Zungenbrecher",
+    "section": "3.4 Erklärungsversuche",
+    "text": "3.4 Erklärungsversuche\nWas ist die Ursache für aussprachebedingte sprachliche Fehlleistungen?\nAußer artikulatorischer und klanglicher Ähnlichkeit scheint die Ähnlichkeit der Muskelbewegungen und ihre Repräsentation im Gehirn eine Rolle bei der Entstheung von sprachlichen Fehlleistungen wie den Zungenbrechern zu spielen.\nErkärungsversuch, veröffentlicht in der wissenschaftlichen Zeitschrift Nature:\n\nAusgefeilte mehrdimensionale statistische Verfahren ermöglichten es den Forschern, die riesigen Datenmengen zu sichten und aufzudecken wie grundlegende neuronale Bausteine – Muster von Neuronen, die im Laufe der Zeit an verschiedenen Orten feuern – sich kombinieren, um die Sprachlaute des Amerikanischen Englischs zu bilden.\nDie Muster für Konsonanten waren ganz anders als für Vokale, auch wenn die Sprechlaute genau die gleichen Teile des Vokaltrakts nutzen, sagt der Autor Edward Chang, ein Neurowissenschaftler an der University of California in San Francisco.\nDie Lippen, die Zähne, die Zungenspitze\nDie verschiedenen Muster könnten helfen zu erklären, warum Versprecher auf vorhersehbare Weise auftreten: Wir vertauschen oft zwei Konsonanten in sogenannte Spoonerismen (en. ‘Boat-Tag’ statt en. ‘Tote Bag’) oder verwechseln zwei Vokale (‘wheel’ (Rad) für ‘whale’ Wal), tauschen aber selten Konsonanten gegen Vokale aus.4\nDas Team fand auch heraus, dass das Gehirn die Artikulation anscheinend nicht nach dem Klang der resultierenden Phoneme koordiniert, wie bisher vermutet, sondern wie sich die Muskeln bewegen müssen.\n\n\n\n\n\n\nWichtig\n\n\n\nDie Daten ergaben drei Kategorien von Konsonanten:\n- koronale Konsonanten, ausgesprochen mit dem vorderen Zungenrand (wie /z/ im Anlaut des Wortes <Seife> ),\n- velare Konsonanten, ausgesprochen mit dem hinteren Zungenblatt (wie /g/ im Anlaut des Wortes <Gas> ) und\n- labiale Konstonanten, ausgesprochen mit den Lippen (wie /m/ im Anlaut des Wortes <Mus> ).\nVokale teilen sich in zwei Gruppen auf:\n- gerundete Vokale (wie /u/ in <Lu-pe> ) und\n- ungerundete Vokale (wie /a/ in <La-de> ).\n\n\n„Das impliziert, dass Zungenbrecher hart sind, weil sich die Repräsentationen im Gehirn stark überlappen“, sagt Chang. Zum Beispiel werden ‘/s/’ und ‘/š/’ beide im Gehirn als Front-of-the-Tongue-Sounds (koronale Laute) gespeichert, so dass das Gehirn diese wahrscheinlich häufiger verwechselt als Laute, die von verschiedenen Teilen der Zunge bzw. Sprechwerkzeuge gebildet werden (z.B. /s/ vs. /m/).\nEnglisches Beispiel:\nSally sells seashells (Sally verkauft Muscheln) ist knifflig.\nMally sells sea-smells (Mally verkauft Meeresgerüche) ist es nicht.\n\n\n\n\n\n\nBeispiel\n\n\n\nSally sells seashells (Sally verkauft Muscheln) ist knifflig.\nMally sells sea-smells (Mally verkauft Meeresgerüche) ist es nicht.\n\n\n\n\nÖffnen Sie die Video-Datei auf YouTube (https://www.youtube.com/watch?v=wuK_znJRKhU) mit 11 schwierigen Sprüchen auf Ihrem Computer – und stoppen Sie die Wiedergabe.\n\nÖffnen Sie ein Programm zur Aufnahme Ihrer Stimme (Praat, Windows Recorder, Audacity, Sony Soloist …), setzen Sie Ihr Headset (Kopfhörer mit Mikrofon) auf und drücken Sie Aufnahme.\n\nSpielen Sie die bereits geöffnete Video-Datei mit den elf deutschen Zungenbrechern ab.\n\nLesen Sie die Zungenbrecher nacheinander vom Bildschirm ab, sprechen sie diesen möglichst schnell und ohne Fehler ins Mikrofon. Die Zeit für jeden Zungenbrecher ist beschränkt. Jeder der elf Zungenbrecher soll von Ihnen vollständig ausgesprochen werden. Gewöhnlich werten wir den ersten Durchgang für die folgende Analyse. Wiederholen Sie eventuell nur diejenigen Zungenbrecher, die Sie nicht zu Ende ausgesprochen haben (z.B. wegen Zeitmangel oder weil Sie verwirrt waren).\n\nLaden Sie Ihre Aufnahme als erste Aufgabe (assignment) hoch (Aufgabe N01).\n\n\n\n\nIhre nächste Aufgabe wird darin bestehen, die in Ihrer Aufnahme gemachten sprachlichen Fehlleistungen zu identifizieren und in Klassen einzuordnen."
+  },
+  {
+    "objectID": "spracherwerb.html",
+    "href": "spracherwerb.html",
+    "title": "6  Fehler im Spracherwerb",
     "section": "",
-    "text": "[1] 2"
+    "text": "Fehler in Zweit- und Fremdsprache"
+  },
+  {
+    "objectID": "multikulti.html",
+    "href": "multikulti.html",
+    "title": "8  Multikulturelle Sprachvarietäten",
+    "section": "",
+    "text": "Kiezdeutsch als Beispiel für Abweichungen von der standardsprachlichen Norm mit der Entwicklung einer varietätenspezifischen Grammatik."
+  },
+  {
+    "objectID": "gender.html",
+    "href": "gender.html",
+    "title": "9  Gendergerechte Sprache",
+    "section": "",
+    "text": "Fehler und Abweichungen beim Bezug auf verschiedene Geschlechter, insbesondere bei der Vermeidung des generischen Maskulinums."
+  },
+  {
+    "objectID": "summary.html#callout-types",
+    "href": "summary.html#callout-types",
+    "title": "10  Abschließende Bemerkungen",
+    "section": "10.1 Callout Types",
+    "text": "10.1 Callout Types\n\n\n\n\n\n\nHinweis\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip With Caption / Tipp mit Titel\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\nWichtig\n\n\n\nDas ist wichtig.\n\n\n\n\n\n\n\n\nWarnung\n\n\n\nWarning\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
+  },
+  {
+    "objectID": "summary.html#diagrammer-mermaid",
+    "href": "summary.html#diagrammer-mermaid",
+    "title": "10  Abschließende Bemerkungen",
+    "section": "10.2 DiagrammeR mermaid",
+    "text": "10.2 DiagrammeR mermaid"
   }
 ]

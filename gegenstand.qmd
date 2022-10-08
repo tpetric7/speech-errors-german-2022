@@ -4,41 +4,14 @@
 knitr::include_graphics("pictures/Diapozitiv5.PNG")
 ```
 
-In diesem Einführungskurs machen wir Sie mit grundlegenden Methoden zur Erfassung von linguistischen Merkmalen in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt.[^gegenstand-1]
+In diesem Buch besprechen wir verschiedene Arten von sprachlichen Fehlleistungen und varietäten- bzw. textsortenbedingten Abweichungen von der standardsprachlichen Norm im Deutschen (teilweise auch im Slowenischen), die im Rahmen verschiedener Forschungsbereiche (Psycho- und Neurolinguistik, Spracherwerb, Sprachvarietäten, ...) diskutiert werden und auch für germanistische Studien von Interesse sein können. Berücksichtigt werden folgende sprachliche Erscheinungen: \
 
-[^gegenstand-1]: Dieses Buch wurde mit `Quarto` <https://quarto.org/docs/books/> zusammengestellt.
+- Zungenbrecher (en. tongue twisters, sl. lomilci jezika), \
+- Zungenspitzen-Phänomen (en. tip of the tongue phenomenon, sl. izraz na konici jezika), \
+- Versprecher (en. speech errors, spoonerisms, sl. jezikovni spodrsljaji), \
+- sprachliche Fehler und Abweichungen im Spracherwerb (in diesem Buch mit Beschränkung auf den Erwerb der Zweit- und Fremdsprache), \
+- Abweichungen von der standardsprachlichen Norm in neueren Kommunikationsformen (z.B. Chats, Sms, u.ä.), \
+- Abweichungen von der standardsprachlichen Norm in multikulturellen Gemeinschaften (z.B. Kiezdeutsch), \
+- und sprachliche Probleme und Fehlleistungen bei der Anwendung von gendergerechter Sprache (Ersatz des generischen Maskulinums durch potentielle Konkurrenzformen). \
 
-Hinweise[^gegenstand-2]:
-
-[^gegenstand-2]: Clipart von <https://www.clipartmax.com/>
-
-::: rmdnote
-Das ist eine Definition (rmdnote).
-:::
-
-::: rmdtip
-Das ist ein Tip oder eine Info (rmdtip).
-:::
-
-::: rmdrobot
-Das ist ein Arbeitsvorschlag (rmdrobot).
-:::
-
-::: rmdrstudio
-Das ist der RStudio Logotyp (rmdrstudio).
-:::
-
-::: rmdwarning
-Das ist eine Warnung (rmdwarning).
-:::
-
-::: rmderror
-Das ist eine Fehlermeldung (rmderror).
-:::
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown', "tidyverse", "udpipe"
-), 'packages.bib')
-```
+In diesem Einführungskurs machen wir Sie mit einigen der grundlegenden Methoden zur Erfassung der linguistischen Merkmale in deutschen (und in einigen Abschnitten auch mit slowenischen) Texten bekannt, in denen diese sprachlichen Besonderheiten zu beobachten sind.
