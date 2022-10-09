@@ -26,7 +26,7 @@ embed_url(url)
 
 :::
 
-Bei Zungenbrechern handelt es sich um eine Lautfolge, deren Aussprache nicht nur Lernern einer fremden Sprache schwerfällt sondern auch Erstsprachlern, insbesondere bei höherer Sprechgeschwindigkeit und auch bei Wiederholungsversuchen zu Korrekturzwecken. Die Aussprache von vielen Lautfolgen ist in der Erstsprache hochautomatisiert, so dass gängige Lautkombinationen in sprachlichen Äußerungen gewöhnlich kein Ausspracheproblem darstellen. Die Fehlerrate ist in der alltäglichen sprachlichen Kommunikation gering. In sprachlichen Konstruktionen, die sich als Zungenbrecher herausstellen, kommen jedoch ungewohnte Wortabfolgen, ähnliche Laute und Silben oder Wörter, die sich geringfügig voneinander unterscheiden, gehäuft vor. Diese Abweichungen von gewohnten sprachlichen Konstruktionen erfordert erhöhte Konzentration. 
+Bei Zungenbrechern handelt es sich um Lautfolgen, deren Aussprache nicht nur Lernern einer fremden Sprache schwerfällt sondern auch Erstsprachlern, insbesondere bei höherer Sprechgeschwindigkeit und auch bei Wiederholungsversuchen zu Korrekturzwecken. Die Aussprache von vielen Lautfolgen ist in der Erstsprache hochautomatisiert, so dass gängige Lautkombinationen in sprachlichen Äußerungen gewöhnlich kein Ausspracheproblem darstellen. Die Fehlerrate ist in der alltäglichen sprachlichen Kommunikation gering. In sprachlichen Konstruktionen, die sich als Zungenbrecher herausstellen, kommen jedoch ungewohnte Wortabfolgen, ähnliche Laute und Silben oder Wörter, die sich geringfügig voneinander unterscheiden, gehäuft vor. Diese Abweichungen von gewohnten sprachlichen Konstruktionen erfordert erhöhte Konzentration. 
 
 
 ## Zungenbrecher-Typen
@@ -144,6 +144,7 @@ Die verschiedenen Muster könnten helfen zu erklären, warum *Versprecher* auf v
 Das Team fand auch heraus, dass das Gehirn die Artikulation anscheinend nicht nach dem *Klang* der resultierenden Phoneme koordiniert, wie bisher vermutet, sondern wie sich die *Muskeln bewegen* müssen.
 
 ::: {.callout-important}
+### Phonemkategorien (nach Muskelbewegungen)
 Die Daten ergaben *drei Kategorien von Konsonanten*: \
 - koronale Konsonanten, ausgesprochen mit dem vorderen Zungenrand (wie /z/ im Anlaut des Wortes \<Seife> ), \
 - velare Konsonanten, ausgesprochen mit dem hinteren Zungenblatt (wie /g/ im Anlaut des Wortes \<Gas> ) und \

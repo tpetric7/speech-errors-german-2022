@@ -16,14 +16,14 @@ book:
   chapters:
     - index.qmd
     - preface.qmd
-    - part: "1<br>Unbewusste Fehlleistungen"
+    - part: "Unbewusste Fehlleistungen"
       chapters: 
         - intro.qmd
         - gegenstand.qmd
         - zungenbrecher.qmd
         - zungenspitze.qmd
         - versprecher.qmd
-    - part: "2<br>Normabweichungen und Normwandel"
+    - part: "Normabweichungen und Normwandel"
       chapters: 
         - spracherwerb.qmd
         - medien.qmd
