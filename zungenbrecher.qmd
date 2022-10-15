@@ -13,7 +13,7 @@ knitr::include_graphics("pictures/kissclipart-tongue-twister-cartoon-comics-stop
 
 17 Zungenbrecher innerhalb einer Minute von [Rap Squad One](https://www.youtube.com/watch?v=VORRlhE7Hgk): 
 
-{{ < video src=https://www.youtube.com/watch?v=VORRlhE7Hgk/ title= "17 Zungenbrecher in 1 Minute" start="1" aspect-ratio="16x9" width="100%" > }}
+{{< video https://www.youtube.com/embed/VORRlhE7Hgk title= "17 Zungenbrecher in 1 Minute" start="1" >}}
 
 ```{r eval=FALSE, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
 #| fig-link: <https://www.youtube.com/watch?v=VORRlhE7Hgk>
@@ -174,8 +174,12 @@ Zum Beispiel werden '/s/' und '/š/' beide im Gehirn als Front-of-the-Tongue-Sou
 3. Spielen Sie die bereits geöffnete Video-Datei mit den elf deutschen Zungenbrechern ab. \
 4. Lesen Sie die Zungenbrecher nacheinander vom Bildschirm ab, sprechen sie diesen möglichst schnell und ohne Fehler ins Mikrofon. Die Zeit für jeden Zungenbrecher ist beschränkt. Jeder der elf Zungenbrecher soll von Ihnen vollständig ausgesprochen werden. Gewöhnlich werten wir den ersten Durchgang für die folgende Analyse. Wiederholen Sie eventuell nur diejenigen Zungenbrecher, die Sie nicht zu Ende ausgesprochen haben (z.B. wegen Zeitmangel oder weil Sie verwirrt waren). \
 5. Laden Sie Ihre Aufnahme als erste Aufgabe (assignment) hoch (Aufgabe N01). \
+
 :::
 
 :::rmdrobot
-Ihre nächste Aufgabe wird darin bestehen, die in Ihrer Aufnahme gemachten sprachlichen Fehlleistungen zu identifizieren und in Klassen einzuordnen. 
+Nach dem Lesen aller elf Sprüche hören Sie sich Ihre Aufnahme mit allen Zungenbrechern an und stellen Sie fest, welche Fehler Sie gemacht haben!
+
+Tragen Sie die Zungenbrecher und Ihre Klassifizierung der Fehler in die *gemeinsame Zungenbrecher-Tabelle* nach dem dort vrogegebenen Schema ein!
+
 :::

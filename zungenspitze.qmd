@@ -1,2 +1,156 @@
 # Zungenspitzen-Phänomen {#sec-zungenspitze}
 
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+#| fig-link: <https://web.colby.edu/cogblog/tag/tip-of-the-tongue/>
+knitr::include_graphics("pictures/tip-of-the-tongue1-1.png")
+```
+
+
+Das *Zungenspitzenphänomen*^[[Wikipedia](https://de.wikipedia.org/wiki/Zungenspitzenph%C3%A4nomen)] (TOT-Phänomen, von en. *tip-of-the-tongue*) bezeichnet einen Zustand, in dem ein eigentlich bekanntes Wort zu einem bestimmten Zeitpunkt im mentalen Lexikon nicht oder nur teilweise verfügbar ist.^[Brown, Roger / McNeill, David (1966): The „tip of the tongue“ phenomenon. In: Journal of Verbal Learning and Verbal Behaviour 5, 325.]
+
+:::rmdnote
+Wenn eine Person ein Wort nicht wiedergeben kann, obwohl sie davon überzeugt ist, es eigentlich zu kennen, tritt das **TOT-Phänomen** und somit die Wortfindungssuche ein. Häufig wird der Zustand begleitet von dem frustrierenden Gefühl, dass sich der Ausdruck in mental „greifbarer“ Nähe befindet, sozusagen „auf der Zunge liegt“.^[Schwartz, Bennett L. (1999): Sparkling at the end of the tongue: The etiology of tip-of-the-tongue phenomenology. In: Psychonomic Bulletin & Review 6 (3), 381.]
+:::
+
+::: {.callout-note appearance="simple" icon=true}
+### Beispiel
+Herr P. kann den Namen eines slowenischen Ensembles (*Modrijani*, z.B. [Tebi](https://www.youtube.com/watch?v=a7pcqxKHb_E) oder [Ti, moja rožica](https://www.youtube.com/watch?v=RuiBoAWfSJE)) oft nicht abrufen. Er weiß, dass der Name der Band mit dem Laut *M* beginnt und drei oder vier Silben hat. Aber der Name einer britischen Band (*The Monkeys*, z.B. [I'm a Believer](https://www.google.com/search?client=firefox-b-d&q=the+monkeys#fpstate=ive&vld=cid:38a2b68e,vid:wB9YIsKIEbA,st:0)), die in den 1960er Jahren bekannt war und die Herr P. in seiner Jugend kennenlernte, scheint den Abruf des richtigen Namens aus dem Langzeitgedächtnis zu blockieren, denn auch dieser Bandname beginnt mit einem *M*. 
+:::
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+#| fig-link: <https://www.deviantart.com/iamarg/art/The-Tip-of-the-Tongue-414103082>
+knitr::include_graphics("pictures/d6ujnze-d76188d2-5723-46fc-933e-afe0459b1d08.jpg")
+```
+
+## Warum sind TOTs interessant?
+
+[Memucho](https://memucho.de/Tip-of-the-Tongue-Phaenomen/983#):
+
+- Bei TOTs handelt es sich um ein *universelles Phänomen*, das laut Umfrage von Schwartz (1999)^[Schwartz, B. L., & Metcalfe, J. (2011). Tip-of-the-tongue (TOT) states: retrieval, behavior, and experience. Memory & Cognition, 39(5), 737–749.] in vielen Sprachen mit einer ähnlichen Metapher beschrieben wird und sowohl bei Kindern als auch Erwachsenen auftritt.
+
+- TOTs sind *alltagsrelevant*. Je nach Lebenssituation (Alter, häufige Abfrage-Kontexte) tritt ein TOT-Zustand durchschnittlich ein Mal pro Woche bis ein Mal am Tag auf.
+
+- Ein TOT-Zustand wird als *emotional* quälendes *bewusstes* Erlebnis wahrgenommen. Daher strebt der Betroffene nach Auflösung des Zustands.
+
+- TOTs lassen sich gut generieren und damit *experimentell untersuchen*.
+
+[ARD Mediathek](https://www.daserste.de/information/wissen-kultur/w-wie-wissen/videos/Gedaechtnisstreiche-video-100.html)
+
+{{< video https://pdvideosdaserste-a.akamaihd.net/int/2019/12/07/54a08c0c-a5c9-447d-b816-12e097411422/960-1_569889.mp4 >}}
+
+
+## Erklärungsansätze
+
+[Memucho](https://memucho.de/Tip-of-the-Tongue-Phaenomen/983#):
+
+Bei der Unterschung von TOTs lassen sich zwei Betrachtungsebenen unterscheiden.
+
+### Die direct-access-Sichtweise
+
+Bei dieser Sichtweise fokussiert man sich auf den Gedächtnisprozess an sich. Ein TOT-Zustand wird als Zeichen für einen verhinderten Abruf betrachtet. Dazu existieren zahlreiche Erklärungsansätze. In einem aktuellen *Modell von Gollan und Brown (2006)* nimmt man an, dass der TOT-Zustand das Ergebnis eines *unvollständigen Abrufs* ist. So können Wortbedeutung und vereinzelte semantische Informationen abgerufen werden, es fehlen jedoch Informationen, die eine Zusammensetzung zum Zielwort ermöglichen würden. Die *phonetische* Information kann *nicht abgerufen* werden, so dass die Sprachausgabe blockiert ist.
+
+### Die Metakognitive Betrachtungsebene^[Metakognitionen: Gedanken über das eigene Denken]
+
+Hier liegt der Fokus vor allem auf der Funktion eines TOT-Erlebnisses im Alltag. Ein TOT-Zustand wird nicht als "*Fehlermeldung*" interpretiert, sondern als Signal dafür, dass eine gewisse Menge an *Informationen über ein Zielwort verfügbar* ist, die einen erfolgreiche *Abruf unter weiterer Anstrengung möglich* macht. Damit geht mit einem TOT-Erlebnis ein *motivationaler* Prozess einher.
+
+Beim Lernen kommt das eben erwähnte Motivationspotential ins Spiel. Aktuelle Forschung schlägt die folgende Interpretation vor: Ein TOT-Zustand könnte als eine Art "*Marker*" funktionieren, der *optimal erlernbare*, jedoch noch *nicht vollständig gefestigte Gedächtnisinhalte* kennzeichnet. Die Hypothese steht in Einklang mit Erkenntnissen aus der Lerntheorie, die besagen, dass *Informationen am leichtesten gelernt* werden, die *weder mühelos abrufbar noch vollkommen neu* sind. Diese Markerfunktion könnte evolutionär adaptiv sein und so den "*Sinn*" eines TOT-Zustandes erklären. Eindeutige empirische Belege gibt es hierzu allerdings nicht.
+
+## Methodologie
+
+[Memucho](https://memucho.de/Tip-of-the-Tongue-Phaenomen/983#):
+
+Allgemein kann einen TOT-Zustand sowohl naturalistisch (rückblickend oder in Form von Tagebucheinträgen) als auch experimentell erforscht werden. In beiden Fällen sind einige Punkte zu beachten. 
+
+- Es hat sich als wichtig herausgestellt, einen TOT-Zustand genau zu *definieren und abzugrenzen* gegenüber dem Nicht-Wissen, dem definitiven Wissen und einem sogenannten "Feeling-of-knowing", charakterisiert dadurch, dass eine Person erwartet, das Zielwort wiederzuerkennen (*recognition*), es aber nicht selber produzieren kann (*kein recall*).
+
+- Erhoben wird im Falle eines TOTs in der Regel, welche semantischen *Einzelinformationen zugänglich* sind (Anfangsbuchstabe, Wortlänge, Wortbedeutung,...) und ob der TOT-Zustand am Ende aufgelöst werden konnte oder nicht. 
+
+Beim experimentellen Vorgehen werden TOTs in den meisten Fällen hervorgerufen, indem den Studienteilnehmenden *komplizierte Definitionen* vorgelegt und das definierte Wort erfragt wird. Auf diese Art und Weise lassen sich TOTs zuverlässig generieren. Alternativ wurden z.B. *Bilder* von berühmten Personen gezeigt und deren Name erfragt. In den unten angeführten Untersuchungen werden noch einige andere Methoden beschrieben. 
+
+
+## Vorkommen und Häufigkeit des TOT-Phänomens
+
+Das Zungenspitzenphänomen wird, ähnlich wie Versprecher, nicht auf organische oder gesundheitliche Ursachen zurückgeführt. Die meisten Menschen erleben mindestens ein TOT pro Woche, es handelt sich daher nicht um eine außergewöhnliche, sondern vielmehr um eine *alltägliche Erscheinung*. Im Normalfall tritt die Erinnerung an das gesuchte Wort nach kürzeren oder längeren Zeiträumen wieder ein oder das Auffinden wird durch *Stichwörter und Kontext begünstigt*. 
+
+TOTs lassen sich auch leicht *experimentell hervorrufen* und eignen sich daher gut für wissenschaftliche Studien. Forscher der Psycholinguistik nutzen das Phänomen zur Untersuchung der Struktur des *mentalen Lexikons* und der damit verbundenen Erforschung der *Sprachproduktionsabläufe*.^[Schwartz, Bennett L. (1999): Sparkling at the end of the tongue: The etiology of tip-of-the-tongue phenomenology. In: Psychonomic Bulletin & Review 6 (3), 381.]
+
+
+## Wortfindungsprozess im TOT-Zustand
+
+Brown/McNeill untersuchten 1966 zum ersten Mal das Zungenspitzenphänomen. Sie konfrontierten Probanden mit Definitionen schwieriger bzw. selten gebrauchter Wörter (z. B. Nepotismus = Vetternwirtschaft). Wenn die Testpersonen das gesuchte Zielwort nicht sofort benennen konnten, befanden sie sich im TOT-Zustand und wurden gebeten, einen Fragebogen auszufüllen. Die Probanden konnten Angaben machen über:^[Brown, Roger / McNeill, David (1966): The „tip of the tongue“ phenomenon. In: Journal of Verbal Learning and Verbal Behaviour 5, 325-326.]
+
+- Wörter mit *ähnlicher* Bedeutung oder ähnlichem Klang \
+- die Anzahl der *Silben* \
+- die *Anfangsbuchstaben*. 
+
+Brown/McNeill kamen zu dem Ergebnis, dass in ca. der *Hälfte* der Fälle die *Anfangsbuchstaben* und *Silbenanzahl* *korrekt benannt* werden konnten. Sowohl Wörter mit ähnlichen phonologischen als auch mit ähnlichen semantischen Eigenschaften wurden produziert. Eine *Zweiteilung des mentalen Lexikons* in eine semantische und eine phonologische Ebene ist daher nicht auszuschließen.[6] Studien in anderen Sprachen konnten zeigen, dass Probanden außerdem in der Lage waren, das *Genus* (grammatische Geschlecht), die *Wortart* und den *Artikel* des Zielwortes anzugeben.[7] 
+
+Anhand von Tip of the tongue(TOT)-Experimenten hat man herausgefunden, dass Versuchspersonen, denen Definitionen von relativ ungebräuchlichen Wörtern vorgelesen wurden (z.B. *Sextant*), Wörter benennen, bei denen 80 Prozent der genannten *Anlaute* und mehr als 70 Prozent der *Auslaute* entweder dem Zielwort entsprechen oder aber ihm sehr ähnlich sind.^[https://de.wikipedia.org/wiki/Badewanneneffekt_(Psychologie)]
+
+Entsprechend zeigte eine andere Studie, dass man sich im Allgemeinen *leichter* an den *Wortanfang* als an das Ende des Wortes erinnert. Bei etwa 500 TOT-Situationen wurde in 51 Prozent der Fälle das erste Phonem richtig getroffen, das letzte Phonem nur in 35 Prozent.^[Giuliano Merz: [Das mentale Lexikon und die intuitive Grammatik](http://www.a-ch-d.eu/materialien/WOERTERimKOPF/Merz-Paget-Pet%C3%B6_Handout.pdf). Abgerufen am 8. Februar 2019.] 
+
+
+## Abhängigkeit von Alter und Frequenz
+
+Aufbauend auf den Ergebnissen von Brown/McNeill, untersuchten Burke et al. (1991) das Auftreten des TOT-Phänomens in Abhängigkeit von den Faktoren *Alter*, *Frequenz* und *zeitlicher Abstand* zur letzten Nutzung von *Eigennamen, Dingen und abstrakten Wörtern*. Sie berufen sich in ihrer Studie auf die *Node Structure Theory*, die zu den interaktiven Aktivierungsmodellen zählt. Sie besagt, dass Informationen im mentalen Lexikon in einem *Netzwerk* aus interagierenden Knoten gespeichert sind, die wiederum aktiviert (*Priming*) werden müssen, bevor auf die Information zugegriffen werden kann. Im TOT-Zustand sind die *Verbindungen* zwischen den Knoten *geschwächt*, und ein Zugriff ist nicht möglich. So kann das Wort z. B. auf semantischer Ebene aktiviert worden sein, die Verbindung zur phonologischen Ebene ist aber unterbrochen, und es kann keine Benennung des gesuchten Wortes erfolgen. Findet jedoch ein *phonologisches Priming mit Hilfe von ähnlich klingenden Wörtern* statt, lässt sich die Anzahl der TOTs reduzieren.^[Burke, Deborah / MacKay, Donald / Worthley, Joanna / Wade, Elizabeth (1991): On the Tip of the Tongue: What Causes Word Finding Failures in Young and Older Adults? In: Journal of Memory and Language 30, 543.]
+
+Außerdem konnte bestätigt werden, dass *ältere Personen häufiger TOTs* erleben. Sie können sich besonders schlecht an *Eigennamen* erinnern und insgesamt *weniger Teilinformationen zu den Zielwörtern* angeben. Die Verbindungen zwischen den Knoten wird auch geschwächt, wenn das Wort seit längerer Zeit nicht mehr abgerufen wurde oder generell nur sehr *selten gebraucht* wird.^[Burke, Deborah / MacKay, Donald / Worthley, Joanna / Wade, Elizabeth (1991): On the Tip of the Tongue: What Causes Word Finding Failures in Young and Older Adults? In: Journal of Memory and Language 30, 542-543;555.] 
+
+*Neuroimaging-Ergebnisse*: Es hat den Anschein, dass ältere und jüngere Menschen während der TOT-Zustände ein ähnliches Netzwerk von Hirnregionen nutzen, wie z. B. den *präfrontalen Kortex*, die *linke Insula* und den *sensomotorischen Kortex*. Ältere Menschen zeigen jedoch *Unterschiede in der Aktivität einiger Bereiche* im Vergleich zu jüngeren Menschen. TOTs nehmen bei älteren Menschen mit dem altersbedingten *Verlust an grauer Substanz* in der linken Insula zu.^[Shafto, M.; Burke, D.; Stamatakis, E.; Tam, P.; Tyler, L. (2007). "On the Tip-of-the-Tongue: Neural Correlates of increased Word-finding Failures in Normal Aging". Journal of Cognitive Neuroscience. 19 (12): 2060–2070. doi:10.1162/jocn.2007.19.12.2060. PMC 2373253. PMID 17892392] Dies geht mit einer geringeren Aktivität in der linken Insula einher und steht in Zusammenhang mit einer höheren Häufigkeit von TOTs.^[Shafto, M; Stamatatis, E.; Tam, Tyler (2009). "Word Retrieval Failures in Old Age: The Relationship between Structure and Function". Journal of Cognitive Neuroscience. 22 (7): 1530–1540. CiteSeerX 10.1.1.222.5809. doi:10.1162/jocn.2009.21321. PMID 19642890. S2CID 9197386]
+
+Das *Priming* (Bahnungseffekt)^[Priming ist ein Phänomen, bei dem die Exposition gegenüber einem Stimulus die Reaktion auf einen nachfolgenden Stimulus beeinflusst, ohne dass dies bewusst gesteuert wird oder beabsichtigt ist. Der Priming-Effekt bezieht sich auf die positive oder negative Auswirkung eines schnell präsentierten Stimulus (Priming-Stimulus) auf die Verarbeitung eines zweiten Stimulus (Ziel-Stimulus), der kurz darauf erscheint. Im Allgemeinen hängt die Entstehung des Priming-Effekts vom Vorhandensein einer positiven oder negativen Beziehung zwischen Priming- und Zielreizen ab. Zum Beispiel wird das Wort *Krankenschwester* nach dem Wort *Arzt* schneller erkannt als nach dem Wort *Brot*. - Tulving E, Schacter DL, Stark HA (1982). "Priming Effects in Word Fragment Completion are independent of Recognition Memory". Journal of Experimental Psychology: Learning, Memory, and Cognition. 8 (4): 336–342. doi:10.1037/0278-7393.8.4.336; https://en.wikipedia.org/wiki/Priming_(psychology)] während des Wortabrufs reduziert die Häufigkeit von TOTs und fördert den Abruf des Zielwortes. Es hat sich gezeigt, dass ältere Erwachsene davon stärker profitieren, was mit dem Modell der sich ausbreitenden Aktivierung (*spreading activation*) übereinstimmt, bei dem neuronale Verbindungen bei häufiger Verwendung gestärkt werden.
+
+
+## TOTs und Priming
+
+In der Forschung zum Priming (Bahungseffekt, Vorbahnung) und zur Übung werden *Einzelworttests* verwendet, um das Vorhandensein von TOT-Zuständen zu beurteilen. Dabei wird der *erste Buchstabe* des Zielworts *oder* ein *ähnlich klingendes Wort* vorgegeben, um die Aufmerksamkeit auf das Zielwort zu lenken. Belege für die Nützlichkeit von Priming und Übung bei der *Verringerung von TOT-Zuständen* sind, dass die meisten Informationen in TOT-Zuständen *niedrigfrequent* sind, d. h., dass sie seit einiger Zeit nicht mehr verwendet oder abgerufen wurden.^[Rastle, Kathleen G.; Burke, Deborah M. (1996). "Priming the Tip of the Tongue: Effects of Prior Processing on Word Retrieval in Young and Older Adults". Journal of Memory and Language. 35 (4): 586–605. doi:10.1006/jmla.1996.0031. S2CID 13884102] Die Häufigkeit der Informationsverwendung kann den Abrufprozess dieser Informationen beeinflussen.[Rastle, Kathleen G.; Burke, Deborah M. (1996). "Priming the Tip of the Tongue: Effects of Prior Processing on Word Retrieval in Young and Older Adults". Journal of Memory and Language. 35 (4): 586–605. doi:10.1006/jmla.1996.0031. S2CID 13884102] Die Präsentation eines Primings ist nur einmal erforderlich, um die Auflösung des TOT-Zustands zu erleichtern.^[Abrams, L.; Rodriguez, E. (2005). "Syntactic Class Influences Phonological Priming of Tip-of-the-Tongue Resolution". Psychonomic Bulletin & Review. 12 (6): 1018–1023. doi:10.3758/bf03206437. PMID 16615322] Es wurde festgestellt, dass es wahrscheinlicher ist, dass Personen ihren TOT-Zustand *überwinden*, wenn ihnen der *Anfangsbuchstabe* des Wortes gegeben wird, das sie abzurufen versuchen. Wenn das Priming-Wort eine ähnliche Phonologie wie das Zielwort hat, wird eine *Zunahme* der Häufigkeit von *TOT-Zuständen* und eine *höhere Häufigkeit von richtig erinnerten* Wörtern beobachtet, wenn der TOT-Zustand aufgelöst wird.^[Askari, N (1999). "Priming Effects on Tip-of-the-tongue States in Farsi-English Bilinguals". Journal of Psycholinguistic Research. 28 (2): 197–212. doi:10.1023/A:1023214509959. S2CID 141262297] Unwillkürlich kommen *falsche Wörter* in den Sinn, die *ähnliche phonologische* Merkmale wie das Zielwort aufweisen.^[Abrams, L.; Rodriguez, E. (2005). "Syntactic Class Influences Phonological Priming of Tip-of-the-Tongue Resolution". Psychonomic Bulletin & Review. 12 (6): 1018–1023. doi:10.3758/bf03206437. PMID 16615322] *Phonologische Ähnlichkeit* kann also *sowohl TOT-Zustände verringern als auch erhöhen*. Es ist jedoch möglich, dieses Problem durch eine Änderung der syntaktischen Klasse des Priming-Wortes zu beheben. Priming-Wörter, die sich in der *gleichen syntaktischen Klasse* wie das Zielwort befinden, bewirken *keinen Unterschied* in der TOT-Zustandsauflösung. Die TOT-Zustandsauflösung war für Priming-Wörter in der gleichen syntaktischen Klasse und für nicht verwandte Priming-Wörter (non-related) gleich. Wenn das Priming-Wort in Verbindung mit anderen, nicht verwandten Priming-Wörtern aufgelistet wird, ist die *Position* von Bedeutung: Je *früher in der Liste* das Priming-Wort steht, desto *geringer* ist die *Wahrscheinlichkeit*, dass es zur Auflösung des TOT-Zustands beiträgt.^[Abrams, L.; Rodriguez, E. (2005). "Syntactic Class Influences Phonological Priming of Tip-of-the-Tongue Resolution". Psychonomic Bulletin & Review. 12 (6): 1018–1023. doi:10.3758/bf03206437. PMID 16615322] 
+
+## TOTs und Spracherwerb
+
+Die Geschwindigkeit und Genauigkeit, mit der Sprecher ein Wort abrufen, wird von dem *Lebensalter* beeinflusst, in dem das Wort zum ersten Mal gelernt wurde. Insbesondere *früh erworbene Wörter* werden tendenziell *schneller und genauer benannt* als spät erworbene Wörter (Effekt des Erwerbsalters). Es wurde beobachtet, dass die Wahrscheinlichkeit, einen TOT-Zustand zu erleben, vom Alter abhängt, in dem das Wort im Leben erworben wurde: *mehr TOT-Zustände werden mit spät erworbenen* als mit früh erworbenen Wörtern erreicht^[Navarrete, E; Pastore, M; Valentini, R; Peressotti, P (2015). "First learned words are not forgotten: Age-of-acquisition effects in the tip-of-the-tongue experience". Memory & Cognition. 43 (7): 1085–1103. doi:10.3758/s13421-015-0525-3. PMID 25956729]. 
+
+In der *Anzahl der TOTs*, die von Einsprachigen und Zweisprachigen erlebt werden, wurde ein signifikanter Unterschied gefunden.^[Gollan, T. H.; Bonanni, M. P.; Montoya, R. I. (2005). "Proper names get stuck on bilingual and monolingual speakers' tip of the tongue equally often". Neuropsychology. 19 (3): 278–287. doi:10.1037/0894-4105.19.3.278. PMID 15910114] *Zweisprachige* scheinen die gleiche Anzahl von TOTs wie Einsprachige für *Eigennamen* zu berichten, aber deutlich mehr TOTs für *andere Wörter*.^[Gollan, T. H.; Bonanni, M. P.; Montoya, R. I. (2005). "Proper names get stuck on bilingual and monolingual speakers' tip of the tongue equally often". Neuropsychology. 19 (3): 278–287. doi:10.1037/0894-4105.19.3.278. PMID 15910114] 
+
+Bilinguale weisen *mehr TOTs* für die *weniger dominante Sprache* auf.^[Gollan, T. H.; Bonanni, M. P.; Montoya, R. I. (2005). "Proper names get stuck on bilingual and monolingual speakers' tip of the tongue equally often". Neuropsychology. 19 (3): 278–287. doi:10.1037/0894-4105.19.3.278. PMID 15910114 und Gollan, T. H.; Silverberg, N. B. (2001). "Tip-of-the-tongue states in Hebrew–English bilinguals". Bilingualism: Language and Cognition. 4 (1): 63–83. doi:10.1017/S136672890100013X. S2CID 145762131] Bei einer Aufgabe zur *Benennung von Bildern* waren *bilinguale* Sprecher *langsamer* als Monolinguale, selbst wenn sie ihre erste und dominante Sprache verwenden konnten. Dies könnte möglicherweise darauf zurückzuführen sein, dass zweisprachige Sprecher die *Wörter seltener verwenden* als einsprachige.^[Ivanova, I.; Costa, A. (2008). "Does bilingualism hamper lexical access in speech production?" (PDF). Acta Psychologica. 127 (2): 277–288. doi:10.1016/j.actpsy.2007.06.003. PMID 17662226] *Zweisprachige* repräsentieren auch praktisch *doppelt so viele Wörter* und *zusätzliche kognitive Mechanismen* zur Aktivierung und Inaktivierung von Sprachen. Diese Mechanismen führen zu einem *zusätzlichen Verarbeitungsaufwand*, den einsprachige Personen nicht haben. Darüber hinaus ist das zweisprachige System auch dann, wenn eine Aufgabe einsprachig zu sein scheint, *niemals funktionell "ausgeschaltet*"^[Gollan, T. H.; Bonanni, M. P.; Montoya, R. I. (2005). "Proper names get stuck on bilingual and monolingual speakers' tip of the tongue equally often". Neuropsychology. 19 (3): 278–287. doi:10.1037/0894-4105.19.3.278. PMID 15910114]. 
+
+In [Ecke(2008)](http://babylonia.ch/de/archiv/2008/nummer-2-08/die-kosten-der-mehrsprachigkeit-zeit-und-fehler-bei-der-wortfindung/) wird die Frage diskutiert, ob sich Mehrsprachigkeit negativ auf die Schnelligkeit und Zuverlässigkeit der lexikalischen Verarbeitung in der Erstsprache auswirkt und ob zeitweilige Wortfindungsprobleme (TOTs) in der Erst- und in der Zielsprache (dominant oder weniger dominant) beobachtet werden können. 
+
+
+## TOTs und Emotionen
+
+Es ist gut dokumentiert, dass *Emotionen* viele Gedächtnisvariablen beeinflussen, z. B. die Menge der abgerufenen Erinnerungen.^[Schwartz, BL. (Feb 2010). "The effects of emotion on tip-of-the-tongue states" (PDF). Psychonomic Bulletin & Review. 17 (1): 82–7. doi:10.3758/PBR.17.1.82. PMID 20081165. Retrieved 20 October 2013.] Es ist üblich, dass Individuen TOTs Emotionen zuschreiben.^[Schwartz, BL. (Feb 2010). "The effects of emotion on tip-of-the-tongue states" (PDF). Psychonomic Bulletin & Review. 17 (1): 82–7. doi:10.3758/PBR.17.1.82. PMID 20081165. Retrieved 20 October 2013.] Es wird angenommen, dass die Mehrheit der Individuen TOTs negativ erlebt. Emotionale TOTs werden mit größerer Wahrscheinlichkeit später abgerufen als TOTs, mit denen keine emotionale Erfahrung verbunden war.Emotionen und TOTs stehen in Zusammenhang mit der oben erwähnten metakognitiven Theorie. Nach dieser Theorie informieren TOTs das kognitive System darüber, ob die Informationen, an die man sich zu erinnern versucht, zugänglich sind, so dass Emotionen beim Erleben von TOT eine Rolle spielen können. Einige Untersuchungen haben gezeigt, dass Fragen, die eine emotionale Erregung auslösen, eher zu TOTs führen als Fragen, die keine emotionale Erregung hervorrufen. Es wurde auch festgestellt, dass sich die emotionale Erregung auf nachfolgende Fragen oder Informationen, die abgerufen werden, ausdehnen kann, auch wenn sie selbst keine emotionale Erregung hervorrufen. Es wurde festgestellt, dass emotionale Erregung die Wahrscheinlichkeit des Erlebens von TOT erhöht. Bei der Neurobildgebung wurde auch eine Aktivierung in einigen Bereichen festgestellt, die mit Emotionen in Verbindung gebracht werden, insbesondere im anterioren cingulären Cortex. 
+
+
+## Auswirkungen von Gesten
+
+Es ist nicht bekannt, ob Gesten bei der Suche nach dem schwer fassbaren Wort in einer TOT-Erfahrung hilfreich sind.
+
+
+## TOTs und Drogen
+
+Untersuchungsergebnisse deuten darauf hin, dass *Lorazepam* (eine Droge, die zur kurzfristigen Behandlung von Angstzuständen, Schlaflosigkeit sowie zur Sedierung aggressiver Patienten verwendet wird) die Wahrscheinlichkeit von TOT-Zuständen nicht erhöht, aber es *hemmt* den *Abruf von korrekten Antworten* und das *subjektive Gefühl* von TOT-Zuständen, was dazu führt, dass die Teilnehmer *unbewusst falsche Antworten* geben.^[Bacon, E.; Schwartz, BL.; Paire-Ficout, L.; Izaute, M. (Jun 2007). "Dissociation between the cognitive process and the phenomenological experience of TOT: effect of the anxiolytic drug lorazepam on TOT states". Conscious Cogn. 16 (2): 360–73. doi:10.1016/j.concog.2006.05.001. PMID 16798012. S2CID 24903714] 
+
+*Koffein*: In einem Experiment beantworteten Versuchspersonen (Koffeingruppe vs. Placebogruppe) 100 Fragen zum Allgemeinwissen, auf die es jeweils eine richtige Antwort gab. Für jede Frage lasen die Teilnehmer 10 Grundwörter, die für kurze Zeit auf einem Monitor angezeigt wurden. Jede Liste mit 10 Priming-Wörtern enthielt zwischen zwei und acht Wörter, die der richtigen Antwort auf die Frage phonologisch ähnlich waren, während die übrigen Wörter keinen solchen Bezug aufwiesen. Die Koffeingruppe hatte *weniger TOT*-Erlebnisse als die Placebogruppe, was auf ein besseres Erinnerungsvermögen schließen lässt. In der nicht phonologisch *unähnlichen Bedingung* schnitt die Koffeinhgruppe jedoch bei der Fähigkeit, Wörter abzurufen, *nicht so gut* ab wie die Placebogruppe. Die Koffeinmenge (die zwei Tassen Kaffee entspricht) kann demnach das *kurzfristige Erinnern an bestimmte Wörter vorübergehend beeinträchtigen*. Darüber hinaus kann eine allgemeine positive Wirkung von Koffein auf die Aufmerksamkeit ausgeschlossen werden^[Lesk, V. E.; Womble, S. P. (2004). "Caffeine, priming, and tip of the tongue: evidence for plasticity in the phonological system". Behavioral Neuroscience. 118 (3): 453–461. doi:10.1037/0735-7044.118.3.453. PMID 15174922. S2CID 27485539].
+
+
+## TOTs und mentale Störungen
+
+Aphasie, Alzheimer und Dyslexie gehören zu den mentalen Störungen, die TOTS begünstigen. 
+
+
+Als Einstieg: 
+*TOT*
+https://en.wikipedia.org/wiki/Tip_of_the_tongue
+https://memucho.de/Tip-of-the-Tongue-Phaenomen/983#
+*Priming*
+https://en.wikipedia.org/wiki/Priming_(psychology)
+
+:::rmdrobot
+Stellen Sie im Rahmen einer Gruppenarbeit eine Tabelle zusammen, in der Untersuchungsergebnisse zur Schnelligkeit und Zuverlässigkeit des lexikalischen Zugriffs bei Ein- und Mehrsprachigen dargestellt werden! - Lektüre: Ecke(2008) - "TOT_bilangual_baby2_08ecke.pdf"
+
+:::
+
+:::rmdrobot
+Konstruieren Sie im Rahmen einer Gruppenarbeit eine TOT-Unterschung, in der Sie mit Hilfe von Software (PsychoPy) die Schnelligkeit des lexikalischen Zugriffs und die Fehleranfälligkeit testen! 
+:::
+
