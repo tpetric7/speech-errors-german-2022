@@ -1,2 +1,505 @@
 # Versprecher {#sec-versprecher}
 
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+#| fig-link: <https://www.toonpool.com/cartoons/freudscher%20versprecher_132853>
+knitr::include_graphics("pictures/freudscher_versprecher_1328535.jpg")
+```
+
+
+*Versprecher* (en. speech error, slip of the tongue, sl. jezikovni spodrsljaj) sind **unwillkürliche** sprachliche Fehler, die beim Sprechen unterlaufen und nicht auf organische oder sonstige gesundheitliche Ursachen zurückgeführt werden können. [wikipedia](https://de.wikipedia.org/wiki/Versprecher)  
+
+Je nach Modalität sind unterscheidbar:  
+*Versprecher, Verschreiber, Vertipper, Verhörer, Verleser, Vergebärdler*.
+
+Versprecher sind bildungssprachlich auch als *Lapsus linguae* bekannt.
+
+In den Medien werden (konstruierte) Versprecher gerne satirisch zur Kritik und Bloßstellung von öffentlich bekannten Personen verwendet. 
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+#| fig-link: <https://www.vn.at/vorarlberg/2022/09/16/freudscher-versprecher.vn>
+knitr::include_graphics("pictures/Europa_von_Leyen_regiert.jpg")
+```
+
+*Freudsche Versprecher* sind gemäß Leuninger (1993) und Wiedenmann (1998) keine besondere Versprecherkategorie, da sie wie die übrigen Versprecher das Ergebnis fehlerhafter Sprachplanung (Sprachausführung) darstellen und sind daher unter allen Versprecherkategorien zu finden. Versprecher geben keinen Aufschluss über Unterbewusstes (obwohl dies früher einmal vermutet wurde). 
+
+
+## Definition
+
+Bei Versprechern handelt es sich um Fehlleistungen des Gehirns bei der Sprachproduktion, die sich auf verschiedenen sprachlichen Ebenen bemerkbar als antizipatorische oder perseverierende Serialisierungsfehler machen: 
+
+– *Auslassung* (Elision, Deletion, Omission),  
+- *Hinzufügung* (Intrusion, Epenthese, Addition),  
+- *Ersetzung* (Substitution),   
+- *Vertauschung* (Metathese),  
+- *Kontamination* (Vermischung, Blending).
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+#| fig-link: <https://www.spreadshirt.de/shop/design/spektakel+farben+wortspiel+freudscher+versprecher+laetzchen-D5c00c8ae5fd3e424dc819325?sellable=yrwD10aLwvs9vJdpgqNV-235-205>
+knitr::include_graphics("pictures/spektakel-farben-wortspiel-freudscher-versprecher-laetzchen.png")
+```
+
+Versprecher treten bei allen Sprechern *gelegentlich* auf (im Durchschnitt 1 Versprecher auf 1000 Wörter), häufiger jedoch, wenn sie nervös, müde, ängstlich oder betrunken sind. Bei Live-Übertragungen in öffentlichen Medien unterlaufen Laiensprechern und sogar routinierten Moderatoren häufig Versprecher, weil sie unter *Zeitdruck / Stress* stehen. 
+
+Bei normaler *Sprechgeschwindigkeit* fallen viele Versprecher gar nicht auf und werden unbewusst *korrigiert*, und zwar sowohl semantisch als auch grammatisch ( --> Akkomodation). 
+
+---
+
+## Versprecher aus linguistischer Sicht
+
+Linguisten, Psycholinguisten und Psychologen sind einerseits daran interessiert, Versprecher zu *klassifizieren*, andererseits aber auch daran, die Ursachen für ihr Auftreten zu *erklären*. 
+
+Eine der ersten *Versprechersammlungen* wurde von *Meringer* (1895) angelegt und in einer Studie veröffentlicht (Meringers Versprechersammlung ist auch in der Datenbank von *Wiedenmann* 1998 zu finden).  
+
+*Neuere Erklärungsansätze* gehen von *Sprachplanungsmodellen* aus, und zwar mit dem Ziel, die Versprecher den vermuteten *Sprachplanungsebenen* zuzuordnen. 
+
+*Sprachplanungsphasen* (nach Leuninger 1996):  
+
+- Als erstes kommt die *Botschaft* (message), die einer anderen Person mitgeteilt werden soll. Diese Botschaft muss durch das Produktionssystem des Sprechers umgesetzt werden und durchläuft dabei folgende hypothetischen *Ebenen* (vereinfacht):   
+- eine *prädikative Ebene*, auf der die Bedeutung geplant wird;  
+- eine *positionale Ebene*, auf der die grammatische Form entwickelt wird; vermutlich erfolgt auch eine *lexikalische und grammatische Kontrolle*;   
+- das *Artikulationsprogramm* mit einer *Lautkontrolle*, was die grammatisch strukturierte Form schließlich in eine *angemessene* *Lautform* bringt, die sprachliche Äußerung. 
+
+Die Versprecher lassen sich nun diesen Ebenen der Sprachplanung zuordnen. 
+
+Versprecher können nur innerhalb eines sehr *engen zeitlichen Rahmens* stattfinden, da sie wohl durch Fehler im *Arbeitsspeicher* des Sprechers zustande kommen (dessen Kapazität scheint für ca. 7 Silben zu reichen). 
+
+---
+
+## Klassifizierungen
+
+Es gibt nur wenige Versprecher, die sich eindeutig in eine einzige Kategorie einordnen ließen. Die meisten Versprecher fallen daher in mehr als eine Kategorie. Aus diesem Grund sollte man Vorkommenshäufigkeiten (Prozentzahlen) für die verschiedenen Versprechertypen mit Vorsicht genießen. Die verschiedenen Klassifizierungen unterscheiden sich sowohl methodisch als auch terminologisch.  
+
+### Leuninger (1993, 1996)
+
+- *Substitutionen*: Ersetzungen aufgrund von Bedeutungs- oder Formähnlichkeit. Bei der Ersetzung eines formähnlichen Wortes werden strenge Regeln befolgt; so weist das falsche Wort meist die gleiche Silbenzahl, gleiche oder gleich empfundene Endungen und Anfangslaute etc. wie das Wort auf, das eigentlich geäußert werden sollte. Beispiel: „renommiert“ statt „renoviert“ (88). Es entsteht scheinbar kein neues Wort, sondern es wird eines durch das andere aufgrund von Formähnlichkeit ersetzt.
+
+- *Vertauschungen*, die bei Wörtern meist innerhalb derselben Wortart ablaufen. Wörter, Teile von zusammengesetzten Wörtern, Silben oder auch Laute tauschen ihren Platz. Beispiel [ursprünglich aus Rudolf Meringers Corpora: 1895 / 1908]: „zwecktischer Prack“ statt „praktischer Zweck“ (83).
+
+- Bei *Antizipationen* (Vorwegnahmen) werden sprachliche Einheiten in einer Äußerung vorweggenommen. Diese Einheiten können die obengenannten Einheiten: Wörter, Wortbestandteile, Lautgruppen/Laute sein; Beispiel: „Ich wollte sie stockbrieflich verfolgen lassen“: das „o“ aus „verfolgen“ wird (hier ein substitutives Beispiel) vorgezogen in der zeitlichen Serialisierung (84).
+
+- *Postpositionen* (Nachklänge, Repetitionen; auch mit dem aus der Pathologie stammenden Begriff Perseveration bezeichnet) sind das Gegenstück zu den Antizipationen. Hier klingen sprachliche Elemente nach, was bedeutet, dass eine Einheit, die zuvor schon geäußert wurde, bei der Sprachplanung noch aktiv ist und aus diesem Grund fälschlicherweise ein zweites Mal (substitutiv oder aber auch additiv) verwendet wird. Hiervon betroffen können alle bereits genannten Einheiten sein; Beispiel: „sozialistische Zekten“ für „sozialistische Sekten“ (Leuninger 1996: 73).
+
+- *Kontaminationen* von Syntagmen oder Wörtern. Sie gelten als die spannendste Versprecherkategorie und treten (sprecherbezogen; Versprechen ist idiosynkratisch) auch relativ häufig auf. Hierbei vermischen sich zwei konkurrierende Elemente, wobei relevante Teile beider Ausdrücke zusammengefügt werden. Beispiel für eine Kontamination von Wörtern ist: „Hinwaltspunkt“ für „Hinweis/ Anhaltspunkt“ (98).
+
+Ein *Beispiel für die Zuordnung eines Versprechers* zu einer der Sprachplanungsebenen: Den Versprecher „*Ich kann nicht über meine Haut springen*“ interpretiert Leuninger (1993: 164) als *Kontamination* der Wendungen „*Ich kann nicht über meinen Schatten springen*“ und „*Ich kann nicht aus meiner Haut*“ und ordnet ihn der prädikativen Ebene zu, also der Ebene der Sprachplanung, auf der die Bedeutung einer Äußerung geplant wird. Die zwei an einer Kontamination beteiligten Einheiten (meist Wörter oder Phrasen) müssen bei der Sprachplanung beide präsent sein – sonst könnten sie nicht miteinander verschmolzen werden.[6]
+
+Leuninger verweist ferner darauf, dass bei *zweisprachig* aufwachsenden Kindern auch die Interaktion beider Sprachen zu Versprechern führen kann.
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_2.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_3.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_4.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_5.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_6.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_7.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_8.PNG")
+```
+
+**Versprecherarten** (Beispiele aus einer Präsentation von *Markus Steinbach*, Uni Mainz):
+
+- *Vertauschung*: Saukramer <-- Grausamer \
+- *Antizipation*: ich werde nun zur Abschreitung der Anträge 
+schreiten <-- zur Abstimmung der Anträge schreiten \
+- *Postposition*: auf das Wohl unseres Chefs aufzustoßen <-- auf das Wohl unseres Chefs anzustoßen \
+- *Kontamination*: sich verabtschüssen <-- sich verabschieden/tschüss sagen \
+- *Substitution*: wes Brot ich ess, des Lob ich trink <-- wes Brot ich ess, des Lob ich sing \
+
+---
+
+#### Klassifizierung (nach Stemberger)
+
+Stembergers Klassifikationsschema. Die Tabelle ist nur im Html-Format sichtbar. 
+
+::: {.content-visible when-format="html"} 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+klassifizierung <- readxl::read_xlsx(
+  "data/Versprecherklassifizierung-2015-21.xlsx", 
+  sheet = 3) %>% 
+  janitor::clean_names()
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+library(DT)
+# klassifizierung %>% DT::datatable(
+#   fillContainer = TRUE, filter = "top", options = list(pageLength = 1))
+
+klassifizierung %>% 
+  DT::datatable(filter = "top", 
+                fillContainer = T,
+                extensions = c('Buttons', "ColReorder", "RowReorder",
+                               'FixedColumns', "KeyTable", "Scroller"),
+                options = list(pageLength = 10, 
+                               autowidth = TRUE,
+                               # wrap text
+                               columnDefs = list(
+                                 list(width = '10%', 
+                                      targets = c(4,5,6))),
+                               colReorder = TRUE, 
+                               rowReorder = TRUE, 
+                               order = list(c(0, 'asc')),
+                               keys = TRUE,
+                               deferRender = TRUE,
+                               scrollY = 500, 
+                               scroller = FALSE, # TRUE
+                               scrollX = TRUE,
+                               fixedColumns = 
+                                 list(leftColumns = 2, 
+                                      rightColumns = 0),
+                               dom = 'Bfrtip', # Bfrtip or t
+                               buttons = c(
+                                 'colvis','copy', 'csv', 
+                                 'excel', 'pdf', 'print'))) %>%
+  formatStyle("versprechertyp_error_type",
+              target = 'row',
+              columns = c(4,5,6), width='20px', 
+              color = "darkgreen",
+              backgroundColor = styleEqual(c(0, 1), 
+                                           c('gray30', 'lightblue')))
+
+```
+
+:::
+
+---
+
+## Versprechersammlung
+
+Hier ist eine Versprechersammlung von Studierenden der Universität Maribor. Die Versprechersammlung ist nur im Html-Format sichtbar. 
+
+::: {.content-visible when-format="html"} 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+versprechersammlung <- readxl::read_xlsx(
+  "data/Versprecherklassifizierung-2015-21.xlsx", sheet = 1) %>% 
+  janitor::clean_names()
+
+# library(DT)
+# versprechersammlung %>% 
+  # rmarkdown::paged_table()
+  # DT::datatable(fillContainer = TRUE, filter = "top",
+  #               options = list(pageLength = 10))
+  # DT::datatable(filter = "top", fillContainer = TRUE, 
+  #               extensions = 'Buttons', "ColReorder", 
+  #               options = list(pageLength = 20, 
+  #                              colReorder = TRUE,
+  #                              dom = 'Bfrtip',
+  #                              buttons = c('colvis','copy', 'csv', 
+  #                                          'excel', 'pdf', 'print')
+  #               )) %>% 
+  # formatStyle("sprache",
+  #             target = 'row',
+  #             backgroundColor = 
+  #               styleEqual(c(0, 1), c('gray30', 'lightblue')))
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+library(DT)
+# versprechersammlung %>% DT::datatable(
+#   fillContainer = TRUE, filter = "top", options = list(pageLength = 1))
+
+versprechersammlung %>% 
+  DT::datatable(filter = "top", 
+                fillContainer = T,
+                extensions = c('Buttons', "ColReorder", "RowReorder",
+                               'FixedColumns', "KeyTable", "Scroller"),
+                options = list(pageLength = 10, 
+                               autowidth = TRUE,
+                               # wrap text
+                               columnDefs = list(
+                                 list(width = '10%', 
+                                      targets = c(4,5,6))),
+                               colReorder = TRUE, 
+                               rowReorder = TRUE, 
+                               order = list(c(0, 'asc')),
+                               keys = TRUE,
+                               deferRender = TRUE,
+                               scrollY = 500, 
+                               scroller = FALSE, # TRUE
+                               scrollX = TRUE,
+                               fixedColumns = 
+                                 list(leftColumns = 1, 
+                                      rightColumns = 0),
+                               dom = 'Bfrtip', # Bfrtip or t
+                               buttons = c(
+                                 'colvis','copy', 'csv', 
+                                 'excel', 'pdf', 'print'))) %>%
+  formatStyle("sprache",
+              target = 'row',
+              columns = c(4,5,6), width='20px', 
+              color = "darkgreen",
+              backgroundColor = styleEqual(c(0, 1), 
+                                           c('gray30', 'lightblue')))
+
+```
+
+:::
+
+
+## Klassifizierung mit englischen Termini
+
+[Wikipedia: Psycholinguistische Klassifikation der Versprechertypen mit englischen Termini und Beispielen](https://en.wikipedia.org/wiki/Speech_error#Psycholinguistic_classification)
+
+[Wikipedia: Betroffene Segmente oder linguistische Einheiten](https://en.wikipedia.org/wiki/Speech_error#Psycholinguistic_classification)
+
+---
+
+## Sprachproduktionsmodelle
+
+Im Gegensatz zur *Sprachverarbeitung* lässt sich die *Sprachproduktion* nicht so einfach experimentell untersuchen. 
+
+Versprecher sind eine Möglichkeit, Einblick in den Sprachproduktionsprozess und in den Aufbau 
+des *Sprachproduktionssystems* im menschlichen Gehirn zu erhalten. 
+
+Aus Fehlleistungen sind Rückschlüsse möglich, wie eine fehlerfreie Sprachproduktion funktioniert und in welchen Phasen des Sprachproduktionssystems es zu Konflikten zwischen den selbständig arbeitenden Subsystemen kommt.  
+
+
+### Leuningers Modell
+
+**Leuningers Sprachplanungsmodell** (1993, 1996, 1998), vgl. mit dem Sprachproduktionsmodell von Garrett (1980) und Fromkin (1973) bei [Wikiversity](https://en.wikiversity.org/wiki/Psycholinguistics/Models_of_Speech_Production): 
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_9.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Garrett_1980.png")
+```
+
+**Steinbachs** Darstellung seines Sprachplanungsmodells: 
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Steinbach_8.png")
+```
+
+### Sequentielles Modell (Bock & Levelt)
+
+Sprachproduktionsmodell von **Levelt, Roelofs und Mayer (1999)**: 
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_11.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_12.PNG")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_13.PNG")
+```
+
+*Kritik am Sprachproduktionsmodell* von Levelt, Roelofs & Mayer: 
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_14.PNG")
+```
+
+### Konnektionistische Modell
+
+Konkurrenzmodell von *Dell (1986)*, ein **konnektionistisches Modell** mit Feedback-Schleife: parallele Verarbeitung
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Dell_error_model_2.png")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Dell_error_model_1.png")
+```
+
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Dell_error_model_3.png")
+```
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_15.PNG")
+```
+
+---
+
+### Stemberger (1993)
+
+**Einflussfaktoren**
+
+- sprachexterne Faktoren 
+- sprachinterne Faktoren 
+
+#### Sprachexterne Faktoren 
+
+- kognitive Belastung (cognitive load) 
+- Verdrängung / unterdrückte Gedanken (Freud) 
+- Sprechtempo 
+- Müdigkeit 
+- Betäubung (Alkohol, Drogen) 
+
+
+#### Sprachinterne Faktoren
+
+Diese Faktoren nehmen Bezug darauf, wie sprachliche Elemente im Gehirn repräsentiert sind und welche Bestandteile der Botschaft (chunk) bereits geplant und ausgeführt wurden. 
+
+Die meisten Faktoren betreffen die **Ähnlichkeit** zwischen sprachlichen Einheiten. 
+
+- **Paralellitäts-Beschränkung**: 
+    - Versprecher betrifft zwei phonologische Elemente in parallelen Teilen einer Silbe (beide im Silbenanlaut, beide im Silbenkern oder beide im Silbenauslaut); 
+    - Konsonanten werden durch Konsonanten ausgetauscht, Vokale durch Vokale; 
+    - am stärksten wirkt die Parallelitäts-Beschränkung zwischen Wörtern, weniger stark innerhalb eines Wortes. 
+
+
+- **Silbenstruktur**: 
+    - phonologische Versprecher halten sich an die einzelsprachlichen Beschränkungen; 
+    - stärkere Integration in die Silbenstruktur macht die Veränderung eines sprachlichen Element weniger wahrscheinlich; 
+    - Vokal und auslautende Konsonant(en) bilden gemeinsam den Silbenreim; Versprecherrate im Reim ist von der Sonoritäthierarchie abhängig (nicht jedoch die Fehlerrate zwischen Anlaut und Vokal); 
+    - Der Zusammenhalt (Kohesivität) der Silbenbestandteile (z.B. Reim) ist auch in Mischkonstruktionen (Kontaminationen, Blends) zu beobachten: die Nahtstelle zwischen den beiden Zielwörtern (target words) ist gewöhnlich eine Silbengrenze oder liegt zwischen Silbenanlaut und Reim, selten zwischen Vokal und Silbenauslaut. 
+    
+
+- **Position im Wort**: 
+    - Anfangsposition im Wort ist wichtig für die Wahrnehmung (Perzeption); die größere Fehlerrate bei wort-initialen Konsonanten könnte gemäß Dell (1986) an ihrem stärkeren Aktivierungsniveau liegen; dieses bahnt konkurrierenden wort-initialen Konsonanten den Weg in die Silbe (und eher zu Fehlern); 
+    - die Position im Wort scheint für das Auftreten von Versprechern wichtiger zu sein als die Position in der Silbe (obwohl schwer unterscheidbar). 
+    
+- **Segment-Ähnlichkeit**: 
+    - Versprecher wahrscheinlicher, wenn phonologische Segmente ähnliche Merkmale aufweisen: z.B. /p/ und /k/ eher als /v/ und /k/. 
+
+
+- **Wiederholungseffekt**: 
+    - Wiederholungseffekt (repetition effect) zeigt die Bedeutsamkeit der segmentalen Ähnlichkeit für das Auftreten von Versprechern: wenn ein Phonem in zwei benachbarten Wörtern vorkommt, ist ein Fehler wahrscheinlich (z.B. Substitution oder Deletion);
+    - auch lexikalische Ähnlichkeit kann eine Wiederholung eines Phonems herausfordern: wenn zwei Wörter im Satz dasselbe Phonem enthalten, dann ist eine Veränderung (Substitution, Addition, Deletion) wahrscheinlicher. Dies scheint auch davon abzuhängen, wie stark die Ähnlichkeit der phonologischen Elemente in zwei Wörtern (in parallelen Silbenpositionen) ist. Die interagierender Wörter gehören oft auch zu derselben Wortklasse (z.B. beide sind Verben, beide Substantive). 
+    
+- **Parallele morphologische Struktur**: 
+    - Präfixe interagieren gewöhnlich mit Präfixen, Suffixe mit Suffixen und Infixe mit Infixen; 
+    - Enkodierung von Bedeutungen ist jedoch in den Sprachen sehr unterschiedlich. 
+
+
+- **Frequenz (Häufigkeit)**: 
+    - mehr Fehler mit seltener vorkommenden sprachlichen Elementen;
+    - Frequenz eines Lemmas korreliert mit lexikalischen Versprechern, aber auch mit morphologischen und phonologischen; 
+    - die Häufigkeit eines phonoligischen Elements beeinflusst die phonologische Fehlerrate; 
+    - sowohl Typenfrequenz (d.h. die Häufigkeit verschiedener Wortformen) als auch Tokenfrequenz (Gebrauchshäufigkeit einer Wortform) sind von Bedeutung für die Fehlerrate; 
+    - die Typen- und Tokenfrequenz von Phrsenstrukturen mag auch eine Rolle spielen bei syntaktischen Fehlern.
+
+- **Markiertheit (oder: Natürlichkeit)**: 
+    - von Jakobson (1943) vorgeschlagen: markierte sprachliche Elemente zeigen die Tendenz, von weniger markierten (unmarkierten) ersetzt zu werden (z.B. im kindlichen Spracherwerb; Aphasie).
+
+
+- **Neigung zur Hinzufügung (Addition Bias)**: 
+    - in kontextuell bedingten Fehlern (syntagmatischen Fehlern) sind Hinzufügungsfehler wesentlich häufiger als Tilgungsfehler; 
+    - in nicht-kontextuell bedingten Fehlern (paradigmatischen Fehlern) sind dagegen eher Tilgungen zu beobachten. 
+    
+- **Distanz**: 
+    - geringere Distanz ermöglicht eher Versprecher: in phonologischen Fehlern stehen die betroffenen Konsonanten gewöhnlich weniger als sieben Wörter oder sieben Silben auseinander; 
+    - ob Wörter in derselben syntaktischen Phrase auftreten; meist kommen zwei interagierende Wörter in derselben übergeordneten Phrase (major syntactic phrase) vor; 
+    - interagierende Wörter in demselben Satz.
+
+
+- **Neigung zur Authentizität (Lexical Bias)**: 
+    - phonologische Versprecher sehen gewöhnlich wie richtige Wörter in einer Sprache aus, seltener nicht wohlgeformt gemäß einer Sprache. 
+    
+- **Stärke (magnitude)**: 
+    - die Faktoren werden in Verwechslungsfehlern (Metathese, exchange error) verstärkt; 
+    - die Faktoren haben einen größeren Effekt auf weniger übliche Versprechertypen. 
+
+
+---
+
+### Betroffene Sprachebenen
+
+Beispiele aus einer Präsentation von *Markus Steinbach* (Uni Mainz). 
+
+**Phonologische Versprecher** \
+(1) mein Kralli putzt <-- mein Pulli kratzt \
+(2) da haben mir die Zie geknittert <-- da haben mir die Knie gezittert \
+(3) Stöhnsteuerkarte <-- Lohnsteuerkarte \
+(4) eine Cole Dosa <-- eine Dose Cola \
+(5) schlecken sie den Stüssel ins Loch <-- stecken sie den Schlüssel ins Loch \
+(6) ich komme vorgen Vormittag <-- ich komme morgen Vormittag \
+(7) wieso ist schon wieder der Kapierer kaputt <-- der Kopierer kaputt \
+(8) der Dichter und sein Henker <-- der Richter und sein Henker \
+
+**Morphologische Versprecher** \
+(1) buddhistische Standesamt <-- statistisches Bundesamt \
+(2) es wird hinten ein unselbständiges Element angefixt, ein Suffix <-- 
+es wird hinten ein unselbständiges Element angefügt, ein Suffix \
+(3) Es wird wieder alles irgendwo hochsterilisiert <- es wird wieder alles irgendwo hochstilisiert \
+(4) die gängige Ausrede für Herr <-- die gängige Anrede für Herr \
+
+**Morphosyntaktische Versprecher** \
+(1) da plötzlich stürzt aus einem Haus mit fliegenden Weibern ein Haar 
+heraus <-- ... mit fliegenden Haaren ein Weib heraus \
+(2) es gibt Formen von Kriminalität, die importiert zu sein scheint <-- 
+die importiert zu sein scheinen \
+(3) ein Ende der Unruhen sind nicht abzusehen <-- ein Ende der Unruhen ist nicht abzusehen \
+(4) für jedes geäußerte Wort müssten dann eine Mehrzahl von Wörtern 
+geäußert werden <-- für jedes geäußerte Wort müsste dann ... \
+
+**Semantische Versprecher** \
+(1) sich verabtschüssen <-- sich verabschieden/tschüss sagen \
+(2) das Buch hat auch mehrere Auflagen erlitten, erfahren
+mehrere Auflagen erfahren \
+(3) als ich auf die Geburt kam <-- als ich auf die Welt kam/geboren wurde \
+(4) ich bin fast aus allen Socken gefallen <-- ich bin fast aus allen Wolken gefallen/von den Socken sein \
+(5) das ist wirklich ein dickes Stück <-- ein starkes Stück/ein dickes Ding \
+
+---
+
+### Versprecherkorrekturen
+
+```{r echo=FALSE, fig.keep='all', out.width="100%"}
+knitr::include_graphics("pictures/Versprechertypen_10.PNG")
+```
+
+Fehlerakkomodation nach sprachlichen Ebenen geordnet (Markus Steinbach, Mainz):  
+
+**Morphologische Akkommodation** \
+(1) Männer können nämlich noch trink-en, wenn sie was ge-fahr-en
+haben <-- (noch fahren, wenn sie was getrunken haben) \
+nicht: *nämlich noch trunken, wenn sie was gefahren haben \
+(2) ge-monat-ete Arbeit-en <-- (gearbeitete Monat-e) \
+nicht: *Arbeit-e \
+(3) dass er mit dem Zug zieh-t <-- (mit der Masse zieht) \
+nicht: *dass er mit der Zieh zieh \
+
+**Morphosyntaktische Akkommodation** \
+(1) irgendwie habe ich heute eine Zunge im Knoten <-- einen Knoten in der Zunge \
+nicht: *irgendwie habe ich heute einen Zunge in der Knoten \
+(2) bis er es bei dir abhol-t <-- bis du es bei ihm abhol-st \
+nicht: *bis ihm es bei du abholst \
+
+**Lexikalische Akkommodation** \
+(1) Stöhnsteuerkarte <-- Lohnsteuerkarte \
+nicht: *Stohnsteuerkarte \
+
+
+---
+
+Helen Leuninger: Reden ist Schweigen, Silber ist Gold. Gesammelte Versprecher. 2. Auflage. Ammann, Zürich 1993. ISBN 3-250-10209-1.
+
+Helen Leuninger: Danke und Tschüss fürs Mitnehmen. Gesammelte Versprecher und eine kleine Theorie ihrer Korrekturen. Ammann, Zürich 1996. ISBN 3-250-10323-3 (beide Bücher von Leuninger enthalten auch eine linguistische Theorie der Versprecher auf der Grundlage eines von ihr entworfenen Sprachplanungsmodells).
+
+Rudolf Meringer, Karl Mayer: Versprechen und Verlesen. Eine psychologisch-linguistische Studie. Göschen’sche Verlagshandlung, Stuttgart 1895. (Neudruck: A. Cutler, D. Fay (eds.): Amsterdam Studies in the Theory and History of Linguistic Science II: Classics in Psycholinguistics, Vol. 2. Benjamins, Amsterdam 1978).
+
+Nora Wiedenmann: Versprecher. Phänomene und Daten [1–78; Bibliographie zum Versprechen und zu verwandten Phänomenen: 79–110; Appendix: 1–265]. Mit Materialien auf Diskette. Wissenschaftsverlag Edition Praesens, Wien 1998. ISBN 3-901126-91-0.
+
+Joseph P. Stemberger (1993)
+

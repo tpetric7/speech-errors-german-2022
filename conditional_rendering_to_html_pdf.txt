@@ -1,0 +1,9 @@
+Links zu den lokalen Kopien (sichtbar nur wenn das Buch im html-Format angezeigt wird):  
+
+::: {.content-visible when-format="html"}
+
+[Wikipedia: Psycholinguistische Klassifikation der Versprechertypen mit englischen Termini und Beispielen](Versprechertypen_englische_Bsp.htm)
+
+[Wikipedia: Betroffene Segmente oder linguistische Einheiten](Versprecher_segmente_englische_Bsp.htm)
+
+:::

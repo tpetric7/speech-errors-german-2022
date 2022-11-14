@@ -4,6 +4,56 @@ Einige Hinweise für *`selbständige`* Textanalysen. 🤗
 
 {{ \< include \_WM_Presentation.qmd \> }}
 
+## Fontawesome
+
+In the terminal use:  
+quarto install quarto-ext/fontawesome
+
+This extension folder has to be installed in every project.
+
+After installation, use curly braces to include fa icons / or use html code (e.g. copy free icons from https://fontawesome.com , namely: https://fontawesome.com/start).
+
+{{< fa envelope >}} - the code for an envelope
+
+{{< fa brands facebook >}} - the code for brands like facebook
+
+For icon-styling go to https://github.com/quarto-ext/fontawesome: 
+{{< fa brands windows size= 4x >}}
+
+On https://fontawesome.com/docs, there is information on how to change the color of the icons, e.g. in the Styling section, Basics.
+
+<span style="font-size: 3em; color: Tomato;">
+    <i class="fa-solid fa-camera"></i>
+  </span>
+  
+Rotated icons:  
+
+<div class="fa-3x">
+<i class="fa-solid fa-snowboarding"></i>
+<i class="fa-solid fa-snowboarding fa-rotate-90"></i>
+<i class="fa-solid fa-snowboarding fa-rotate-180"></i>
+<i class="fa-solid fa-snowboarding fa-rotate-270"></i>
+<i class="fa-solid fa-snowboarding fa-flip-horizontal"></i>
+<i class="fa-solid fa-snowboarding fa-flip-vertical"></i>
+<i class="fa-solid fa-snowboarding fa-flip-both"></i>
+</div>
+
+
+Possible to include animated icons:  
+
+<div class="fa-3x">
+  <i class="fa-solid fa-basketball fa-bounce"></i>
+  <i class="fa-solid fa-volleyball fa-bounce"></i>
+
+  <!-- bounce animation with no "squish" -->
+  <i class="fa-solid fa-frog fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; " ></i>
+
+  <!-- bounce animation with no "squish" or "rebound" -->
+  <i class="fa-solid fa-envelope fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;" ></i>
+</div>
+
+
+
 ## Callout Types
 
 ::: {.callout-note}

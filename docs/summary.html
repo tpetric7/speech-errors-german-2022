@@ -105,6 +105,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -308,8 +310,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#callout-types" id="toc-callout-types" class="nav-link active" data-scroll-target="#callout-types"><span class="toc-section-number">10.1</span>  Callout Types</a></li>
-  <li><a href="#diagrammer-mermaid" id="toc-diagrammer-mermaid" class="nav-link" data-scroll-target="#diagrammer-mermaid"><span class="toc-section-number">10.2</span>  DiagrammeR mermaid</a></li>
+  <li><a href="#fontawesome" id="toc-fontawesome" class="nav-link active" data-scroll-target="#fontawesome"><span class="toc-section-number">10.1</span>  Fontawesome</a></li>
+  <li><a href="#callout-types" id="toc-callout-types" class="nav-link" data-scroll-target="#callout-types"><span class="toc-section-number">10.2</span>  Callout Types</a></li>
+  <li><a href="#diagrammer-mermaid" id="toc-diagrammer-mermaid" class="nav-link" data-scroll-target="#diagrammer-mermaid"><span class="toc-section-number">10.3</span>  DiagrammeR mermaid</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/tpetric7/speech-errors-german-2022/edit/main/summary.qmd" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/tpetric7/speech-errors-german-2022/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
     </div>
@@ -335,8 +338,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <p>Einige Hinweise für <em><code>selbständige</code></em> Textanalysen. 🤗</p>
 <p>{{ &lt; include _WM_Presentation.qmd &gt; }}</p>
-<section id="callout-types" class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="callout-types"><span class="header-section-number">10.1</span> Callout Types</h2>
+<section id="fontawesome" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="fontawesome"><span class="header-section-number">10.1</span> Fontawesome</h2>
+<p>In the terminal use:<br>
+quarto install quarto-ext/fontawesome</p>
+<p>This extension folder has to be installed in every project.</p>
+<p>After installation, use curly braces to include fa icons / or use html code (e.g.&nbsp;copy free icons from https://fontawesome.com , namely: https://fontawesome.com/start).</p>
+<p><i class="fa-solid fa-envelope" aria-label="envelope"></i> - the code for an envelope</p>
+<p><i class="fa-brands fa-facebook" aria-label="facebook"></i> - the code for brands like facebook</p>
+<p>For icon-styling go to https://github.com/quarto-ext/fontawesome:</p>
+<p><i class="fa-brands fa-windows fa-4x" aria-label="windows"></i></p>
+<p>On https://fontawesome.com/docs, there is information on how to change the color of the icons, e.g.&nbsp;in the Styling section, Basics.</p>
+<p><span style="font-size: 3em; color: Tomato;"> <i class="fa-solid fa-camera"></i> </span></p>
+<p>Rotated icons:</p>
+<div class="fa-3x">
+<p><i class="fa-solid fa-snowboarding"></i> <i class="fa-solid fa-snowboarding fa-rotate-90"></i> <i class="fa-solid fa-snowboarding fa-rotate-180"></i> <i class="fa-solid fa-snowboarding fa-rotate-270"></i> <i class="fa-solid fa-snowboarding fa-flip-horizontal"></i> <i class="fa-solid fa-snowboarding fa-flip-vertical"></i> <i class="fa-solid fa-snowboarding fa-flip-both"></i></p>
+</div>
+<p>Possible to include animated icons:</p>
+<div class="fa-3x">
+<p><i class="fa-solid fa-basketball fa-bounce"></i> <i class="fa-solid fa-volleyball fa-bounce"></i></p>
+<p><!-- bounce animation with no "squish" --> <i class="fa-solid fa-frog fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; "></i></p>
+<p><!-- bounce animation with no "squish" or "rebound" --> <i class="fa-solid fa-envelope fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;"></i></p>
+</div>
+</section>
+<section id="callout-types" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="callout-types"><span class="header-section-number">10.2</span> Callout Types</h2>
 <div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -406,56 +432,56 @@ Expand To Learn About Collapse
 </div>
 </div>
 </section>
-<section id="diagrammer-mermaid" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="diagrammer-mermaid"><span class="header-section-number">10.2</span> DiagrammeR mermaid</h2>
+<section id="diagrammer-mermaid" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="diagrammer-mermaid"><span class="header-section-number">10.3</span> DiagrammeR mermaid</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-cdba192a9469a6ebd665" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-cdba192a9469a6ebd665">{"x":{"diagram":"\ngraph LR\n  A-->B\n  A-->C\n  C-->E\n  B-->D\n  C-->D\n  D-->F\n  E-->F\n"},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div id="htmlwidget-3e4bb85a24df61e40501" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3e4bb85a24df61e40501">{"x":{"diagram":"graph LR; A-->B; A-->C; C-->E; B-->D; C-->D; D-->F; E-->F"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-69ce540dceea47148996" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-69ce540dceea47148996">{"x":{"diagram":"\ngraph LR\n  A-->B\n  A-->C\n  C-->E\n  B-->D\n  C-->D\n  D-->F\n  E-->F\n"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-2e5afeca6a3a0d3c8ab2" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2e5afeca6a3a0d3c8ab2">{"x":{"diagram":"graph TB; A-->B; A-->C; C-->E; B-->D; C-->D; D-->F; E-->F"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-0261cefc0784c19ffd4c" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0261cefc0784c19ffd4c">{"x":{"diagram":"graph LR; A-->B; A-->C; C-->E; B-->D; C-->D; D-->F; E-->F"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-e36d09143d70988a3518" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e36d09143d70988a3518">{"x":{"diagram":"\ngraph LR\n  A[node text]\n"},"evals":[],"jsHooks":[]}</script>
-</div>
-<div class="cell-output-display">
-<div id="htmlwidget-77d231cee5b5d23e213b" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-77d231cee5b5d23e213b">{"x":{"diagram":"\ngraph LR\n  A(node text)\n"},"evals":[],"jsHooks":[]}</script>
-</div>
-<div class="cell-output-display">
-<div id="htmlwidget-7c1b992251d39dfe1f7c" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7c1b992251d39dfe1f7c">{"x":{"diagram":"\ngraph LR\n  A((node text))\n"},"evals":[],"jsHooks":[]}</script>
-</div>
-<div class="cell-output-display">
-<div id="htmlwidget-fe7a4bd97a90ceed2391" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-fe7a4bd97a90ceed2391">{"x":{"diagram":"\ngraph LR\n  A{node text}\n"},"evals":[],"jsHooks":[]}</script>
-</div>
-<div class="cell-output-display">
-<div id="htmlwidget-3b0b0813f3be30c18dd3" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3b0b0813f3be30c18dd3">{"x":{"diagram":"\ngraph LR\n  A>node text]\n"},"evals":[],"jsHooks":[]}</script>
-</div>
-<div class="cell-output-display">
-<div id="htmlwidget-960696338e8607564224" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-960696338e8607564224">{"x":{"diagram":"\ngraph LR\nA(Rounded)-->B[Rectangular]\nB-->C{A Rhombus}\nC-->D[Rectangle One]\nC-->E[Rectangle Two]\n"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-8f3e408b9494243a59c7" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8f3e408b9494243a59c7">{"x":{"diagram":"graph TB; A-->B; A-->C; C-->E; B-->D; C-->D; D-->F; E-->F"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-eaae678ec02a76446701" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-eaae678ec02a76446701">{"x":{"diagram":"\nsequenceDiagram\n  customer->>ticket seller: ask ticket\n  ticket seller->>database: seats\n  alt tickets available\n    database->>ticket seller: ok\n    ticket seller->>customer: confirm\n    customer->>ticket seller: ok\n    ticket seller->>database: book a seat\n    ticket seller->>printer: print ticket\n  else sold out\n    database->>ticket seller: none left\n    ticket seller->>customer: sorry\n  end\n"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-ee7522dedc611134b899" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ee7522dedc611134b899">{"x":{"diagram":"\ngraph LR\n  A[node text]\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<div id="htmlwidget-df710dd45825d5c7d220" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-df710dd45825d5c7d220">{"x":{"diagram":"\ngraph LR\n  A(node text)\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<div id="htmlwidget-2ebe52d99e5018cfd6b7" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2ebe52d99e5018cfd6b7">{"x":{"diagram":"\ngraph LR\n  A((node text))\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<div id="htmlwidget-19e40bde6f8015b655e0" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-19e40bde6f8015b655e0">{"x":{"diagram":"\ngraph LR\n  A{node text}\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<div id="htmlwidget-2b1756c1f444a4dad595" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2b1756c1f444a4dad595">{"x":{"diagram":"\ngraph LR\n  A>node text]\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="cell-output-display">
+<div id="htmlwidget-556b28232754f5460da6" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-556b28232754f5460da6">{"x":{"diagram":"\ngraph LR\nA(Rounded)-->B[Rectangular]\nB-->C{A Rhombus}\nC-->D[Rectangle One]\nC-->E[Rectangle Two]\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-3775152671472740769d" style="width:100%;height:487px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3775152671472740769d">{"x":{"diagram":"\nsequenceDiagram\n  customer->>ticket seller: ask ticket\n  ticket seller->>database: seats\n  alt tickets available\n    database->>ticket seller: ok\n    ticket seller->>customer: confirm\n    customer->>ticket seller: ok\n    ticket seller->>database: book a seat\n    ticket seller->>printer: print ticket\n  else sold out\n    database->>ticket seller: none left\n    ticket seller->>customer: sorry\n  end\n"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -782,110 +808,160 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>{{ <span class="sc">\&lt;</span> include <span class="sc">\_</span>WM_Presentation.qmd <span class="sc">\&gt;</span> }}</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Callout Types</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Fontawesome</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Note that there are five types of callouts, including: <span class="in">`note`</span>, <span class="in">`warning`</span>, <span class="in">`important`</span>, <span class="in">`tip`</span>, and <span class="in">`caution`</span>.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>::: callout-tip</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Tip With Caption / Tipp mit Titel</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>In the terminal use:  </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>quarto install quarto-ext/fontawesome</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>This extension folder has to be installed in every project.</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>After installation, use curly braces to include fa icons / or use html code (e.g. copy free icons from https://fontawesome.com , namely: https://fontawesome.com/start).</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>This is an example of a callout with a caption.</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>::: callout-important</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>Das ist wichtig.</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>{{&lt; fa envelope &gt;}} - the code for an envelope</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>{{&lt; fa brands facebook &gt;}} - the code for brands like facebook</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>For icon-styling go to https://github.com/quarto-ext/fontawesome: </span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>{{&lt; fa brands windows size= 4x &gt;}}</span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>::: callout-warning</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>Warning</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>::: {.callout-caution collapse="true"}</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Expand To Learn About Collapse</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>This is an example of a 'folded' caution callout that can be expanded by the user. You can use <span class="in">`collapse="true"`</span> to collapse it by default or <span class="in">`collapse="false"`</span> to make a collapsible callout that is expanded by default.</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## DiagrammeR mermaid</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DiagrammeR)</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co"># https://rich-iannone.github.io/DiagrammeR/mermaid.html</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>On https://fontawesome.com/docs, there is information on how to change the color of the icons, e.g. in the Styling section, Basics.</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;span</span> <span class="er">style</span><span class="ot">=</span><span class="st">"font-size: 3em; color: Tomato;"</span><span class="kw">&gt;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-camera"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/span&gt;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>Rotated icons:  </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-3x"</span><span class="kw">&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-snowboarding"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-snowboarding fa-rotate-90"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-snowboarding fa-rotate-180"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-snowboarding fa-rotate-270"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-snowboarding fa-flip-horizontal"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-snowboarding fa-flip-vertical"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-snowboarding fa-flip-both"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="st">  A--&gt;B</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="st">  A--&gt;C</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="st">  C--&gt;E</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="st">  B--&gt;D</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="st">  C--&gt;D</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="st">  D--&gt;F</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="st">  E--&gt;F</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"graph LR; A--&gt;B; A--&gt;C; C--&gt;E; B--&gt;D; C--&gt;D; D--&gt;F; E--&gt;F"</span>)</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>Possible to include animated icons:  </span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;div</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-3x"</span><span class="kw">&gt;</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-basketball fa-bounce"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-volleyball fa-bounce"</span><span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="co">  &lt;!-- bounce animation with no "squish" --&gt;</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-frog fa-bounce"</span> <span class="er">style</span><span class="ot">=</span><span class="st">" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; "</span> <span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="co">  &lt;!-- bounce animation with no "squish" or "rebound" --&gt;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;i</span> <span class="er">class</span><span class="ot">=</span><span class="st">"fa-solid fa-envelope fa-bounce"</span> <span class="er">style</span><span class="ot">=</span><span class="st">" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;"</span> <span class="kw">&gt;&lt;/i&gt;</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/div&gt;</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="fu">## Callout Types</span></span>
 <span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"graph TB; A--&gt;B; A--&gt;C; C--&gt;E; B--&gt;D; C--&gt;D; D--&gt;F; E--&gt;F"</span>)</span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="st">  A[node text]</span></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>Note that there are five types of callouts, including: <span class="in">`note`</span>, <span class="in">`warning`</span>, <span class="in">`important`</span>, <span class="in">`tip`</span>, and <span class="in">`caution`</span>.</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>::: callout-tip</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="fu">## Tip With Caption / Tipp mit Titel</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>This is an example of a callout with a caption.</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>::: callout-important</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>Das ist wichtig.</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="st">  A(node text)</span></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="st">  A((node text))</span></span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>::: callout-warning</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Warning</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>::: {.callout-caution collapse="true"}</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">## Expand To Learn About Collapse</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>This is an example of a 'folded' caution callout that can be expanded by the user. You can use <span class="in">`collapse="true"`</span> to collapse it by default or <span class="in">`collapse="false"`</span> to make a collapsible callout that is expanded by default.</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="st">  A{node text}</span></span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="st">  A&gt;node text]</span></span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="st">A(Rounded)--&gt;B[Rectangular]</span></span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="st">B--&gt;C{A Rhombus}</span></span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="st">C--&gt;D[Rectangle One]</span></span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="st">C--&gt;E[Rectangle Two]</span></span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
-<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="st">sequenceDiagram</span></span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="st">  customer-&gt;&gt;ticket seller: ask ticket</span></span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="st">  ticket seller-&gt;&gt;database: seats</span></span>
-<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="st">  alt tickets available</span></span>
-<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="st">    database-&gt;&gt;ticket seller: ok</span></span>
-<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;customer: confirm</span></span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="st">    customer-&gt;&gt;ticket seller: ok</span></span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;database: book a seat</span></span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;printer: print ticket</span></span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="st">  else sold out</span></span>
-<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="st">    database-&gt;&gt;ticket seller: none left</span></span>
-<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;customer: sorry</span></span>
-<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="st">  end</span></span>
-<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
-<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="fu">## DiagrammeR mermaid</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DiagrammeR)</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="co"># https://rich-iannone.github.io/DiagrammeR/mermaid.html</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="st">  A--&gt;B</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="st">  A--&gt;C</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="st">  C--&gt;E</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="st">  B--&gt;D</span></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="st">  C--&gt;D</span></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="st">  D--&gt;F</span></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="st">  E--&gt;F</span></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"graph LR; A--&gt;B; A--&gt;C; C--&gt;E; B--&gt;D; C--&gt;D; D--&gt;F; E--&gt;F"</span>)</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"graph TB; A--&gt;B; A--&gt;C; C--&gt;E; B--&gt;D; C--&gt;D; D--&gt;F; E--&gt;F"</span>)</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="st">  A[node text]</span></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a><span class="st">  A(node text)</span></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a><span class="st">  A((node text))</span></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a><span class="st">  A{node text}</span></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="st">  A&gt;node text]</span></span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a><span class="st">graph LR</span></span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="st">A(Rounded)--&gt;B[Rectangular]</span></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a><span class="st">B--&gt;C{A Rhombus}</span></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="st">C--&gt;D[Rectangle One]</span></span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a><span class="st">C--&gt;E[Rectangle Two]</span></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a><span class="fu">mermaid</span>(<span class="st">"</span></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a><span class="st">sequenceDiagram</span></span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a><span class="st">  customer-&gt;&gt;ticket seller: ask ticket</span></span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a><span class="st">  ticket seller-&gt;&gt;database: seats</span></span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a><span class="st">  alt tickets available</span></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a><span class="st">    database-&gt;&gt;ticket seller: ok</span></span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;customer: confirm</span></span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a><span class="st">    customer-&gt;&gt;ticket seller: ok</span></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;database: book a seat</span></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;printer: print ticket</span></span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a><span class="st">  else sold out</span></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a><span class="st">    database-&gt;&gt;ticket seller: none left</span></span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a><span class="st">    ticket seller-&gt;&gt;customer: sorry</span></span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a><span class="st">  end</span></span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 </code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

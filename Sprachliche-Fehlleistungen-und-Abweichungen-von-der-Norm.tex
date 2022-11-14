@@ -166,6 +166,9 @@
 \makeatother
 \makeatletter
 \makeatother
+\makeatletter
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\makeatother
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -193,7 +196,7 @@ Sprachvarietäten im Deutschen (und Slowenischen)}
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, interior hidden, frame hidden, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, sharp corners, breakable, enhanced, boxrule=0pt, interior hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -371,7 +374,7 @@ Zum Beispiel wurde der folgende Satz von William Poundstone als ``der
 schwierigste der üblichen englischsprachigen Zungenbrecher''
 bezeichnet.\footnote{https://en.wikipedia.org/wiki/Tongue\_twister}
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -399,7 +402,7 @@ Lautfolgen, bei denen die Zunge zwischen den Silben neu positioniert
 werden muss, dann werden dieselben Laute in einer anderen Reihenfolge
 wiederholt.
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -417,7 +420,7 @@ In anderen Zungenbrechern werden zusammengesetzte Wörter
 (\emph{Komposita}) und ihre \emph{Stämme} genutzt, um die Artikulation
 zu erschweren.
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -438,7 +441,7 @@ Andere Zungenbrecher haben die Form eines Wortes oder \emph{kurzen
 Phrase}, die sich bei schneller Wiederholung als Zungenbrecher
 entpuppen.
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -462,7 +465,7 @@ Peggy Babcock\\
 In manchen Fällen ergibt die inkorrekte Wiedergabe eines Spruchs einen
 vulgären sprachlichen Ausdruck, was wiederum der Belustigung dient.
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -481,7 +484,7 @@ But a rough cut punt.\\
 
 Einige Zungenbrecher wirken selbst bei korrekter Aussprache lustig:\\
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -587,7 +590,7 @@ Das Team fand auch heraus, dass das Gehirn die Artikulation anscheinend
 nicht nach dem \emph{Klang} der resultierenden Phoneme koordiniert, wie
 bisher vermutet, sondern wie sich die \emph{Muskeln bewegen} müssen.
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colback=white, breakable, toprule=.15mm, bottomrule=.15mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Phonemkategorien (nach Muskelbewegungen)}, rightrule=.15mm, opacitybacktitle=0.6, toptitle=1mm, titlerule=0mm, left=2mm, colbacktitle=quarto-callout-important-color!10!white, bottomtitle=1mm, colframe=quarto-callout-important-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, arc=.35mm, breakable, opacitybacktitle=0.6, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Phonemkategorien (nach Muskelbewegungen)}, colframe=quarto-callout-important-color-frame, leftrule=.75mm, rightrule=.15mm, coltitle=black, colbacktitle=quarto-callout-important-color!10!white, bottomtitle=1mm, left=2mm, colback=white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, opacityback=0]
 
 Die Daten ergaben \emph{drei Kategorien von Konsonanten}:\\
 - koronale Konsonanten, ausgesprochen mit dem vorderen Zungenrand (wie
@@ -607,7 +610,7 @@ Das impliziert, dass \emph{Zungenbrecher} harte Aussprachebrocken sind,
 weil sich (laut Chang) ``die \emph{Repräsentationen} im Gehirn stark
 \emph{überlappen}''.
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -624,7 +627,7 @@ gebildet werden (z.B. /s/ vs.~/m/).
 \end{minipage}%
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -704,7 +707,7 @@ liegt``.\footnote{Schwartz, Bennett L. (1999): Sparkling at the end of
   the tongue: The etiology of tip-of-the-tongue phenomenology. In:
   Psychonomic Bulletin \& Review 6 (3), 381.}
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, toprule=.15mm, rightrule=.15mm, bottomrule=.15mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, arc=.35mm, breakable, colframe=quarto-callout-note-color-frame, left=2mm, colback=white, bottomrule=.15mm, toprule=.15mm, leftrule=.75mm, opacityback=0]
 \begin{minipage}[t]{5.5mm}
 \textcolor{quarto-callout-note-color}{\faInfo}
 \end{minipage}%
@@ -1211,6 +1214,659 @@ lexikalischen Zugriffs und die Fehleranfälligkeit testen!
 \hypertarget{sec-versprecher}{%
 \chapter{Versprecher}\label{sec-versprecher}}
 
+\begin{figure}
+
+{\centering 
+
+\href{https://www.toonpool.com/cartoons/freudscher\%20versprecher_132853}{\includegraphics[width=1\textwidth,height=\textheight]{./pictures/freudscher_versprecher_1328535.jpg}}
+
+}
+
+\end{figure}
+
+\emph{Versprecher} (en. speech error, slip of the tongue, sl. jezikovni
+spodrsljaj) sind \textbf{unwillkürliche} sprachliche Fehler, die beim
+Sprechen unterlaufen und nicht auf organische oder sonstige
+gesundheitliche Ursachen zurückgeführt werden können.
+\href{https://de.wikipedia.org/wiki/Versprecher}{wikipedia}
+
+Je nach Modalität sind unterscheidbar:\\
+\emph{Versprecher, Verschreiber, Vertipper, Verhörer, Verleser,
+Vergebärdler}.
+
+Versprecher sind bildungssprachlich auch als \emph{Lapsus linguae}
+bekannt.
+
+In den Medien werden (konstruierte) Versprecher gerne satirisch zur
+Kritik und Bloßstellung von öffentlich bekannten Personen verwendet.
+
+\begin{figure}
+
+{\centering 
+
+\href{https://www.vn.at/vorarlberg/2022/09/16/freudscher-versprecher.vn}{\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Europa_von_Leyen_regiert.jpg}}
+
+}
+
+\end{figure}
+
+\emph{Freudsche Versprecher} sind gemäß Leuninger (1993) und Wiedenmann
+(1998) keine besondere Versprecherkategorie, da sie wie die übrigen
+Versprecher das Ergebnis fehlerhafter Sprachplanung (Sprachausführung)
+darstellen und sind daher unter allen Versprecherkategorien zu finden.
+Versprecher geben keinen Aufschluss über Unterbewusstes (obwohl dies
+früher einmal vermutet wurde).
+
+\hypertarget{definition}{%
+\section{Definition}\label{definition}}
+
+Bei Versprechern handelt es sich um Fehlleistungen des Gehirns bei der
+Sprachproduktion, die sich auf verschiedenen sprachlichen Ebenen
+bemerkbar als antizipatorische oder perseverierende
+Serialisierungsfehler machen:
+
+-- \emph{Auslassung} (Elision, Deletion, Omission),\\
+- \emph{Hinzufügung} (Intrusion, Epenthese, Addition),\\
+- \emph{Ersetzung} (Substitution),\\
+- \emph{Vertauschung} (Metathese),\\
+- \emph{Kontamination} (Vermischung, Blending).
+
+\begin{figure}
+
+{\centering 
+
+\href{https://www.spreadshirt.de/shop/design/spektakel+farben+wortspiel+freudscher+versprecher+laetzchen-D5c00c8ae5fd3e424dc819325?sellable=yrwD10aLwvs9vJdpgqNV-235-205}{\includegraphics[width=1\textwidth,height=\textheight]{./pictures/spektakel-farben-wortspiel-freudscher-versprecher-laetzchen.png}}
+
+}
+
+\end{figure}
+
+Versprecher treten bei allen Sprechern \emph{gelegentlich} auf (im
+Durchschnitt 1 Versprecher auf 1000 Wörter), häufiger jedoch, wenn sie
+nervös, müde, ängstlich oder betrunken sind. Bei Live-Übertragungen in
+öffentlichen Medien unterlaufen Laiensprechern und sogar routinierten
+Moderatoren häufig Versprecher, weil sie unter \emph{Zeitdruck / Stress}
+stehen.
+
+Bei normaler \emph{Sprechgeschwindigkeit} fallen viele Versprecher gar
+nicht auf und werden unbewusst \emph{korrigiert}, und zwar sowohl
+semantisch als auch grammatisch ( --\textgreater{} Akkomodation).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{versprecher-aus-linguistischer-sicht}{%
+\section{Versprecher aus linguistischer
+Sicht}\label{versprecher-aus-linguistischer-sicht}}
+
+Linguisten, Psycholinguisten und Psychologen sind einerseits daran
+interessiert, Versprecher zu \emph{klassifizieren}, andererseits aber
+auch daran, die Ursachen für ihr Auftreten zu \emph{erklären}.
+
+Eine der ersten \emph{Versprechersammlungen} wurde von \emph{Meringer}
+(1895) angelegt und in einer Studie veröffentlicht (Meringers
+Versprechersammlung ist auch in der Datenbank von \emph{Wiedenmann} 1998
+zu finden).
+
+\emph{Neuere Erklärungsansätze} gehen von \emph{Sprachplanungsmodellen}
+aus, und zwar mit dem Ziel, die Versprecher den vermuteten
+\emph{Sprachplanungsebenen} zuzuordnen.
+
+\emph{Sprachplanungsphasen} (nach Leuninger 1996):
+
+\begin{itemize}
+\tightlist
+\item
+  Als erstes kommt die \emph{Botschaft} (message), die einer anderen
+  Person mitgeteilt werden soll. Diese Botschaft muss durch das
+  Produktionssystem des Sprechers umgesetzt werden und durchläuft dabei
+  folgende hypothetischen \emph{Ebenen} (vereinfacht):\\
+\item
+  eine \emph{prädikative Ebene}, auf der die Bedeutung geplant wird;\\
+\item
+  eine \emph{positionale Ebene}, auf der die grammatische Form
+  entwickelt wird; vermutlich erfolgt auch eine \emph{lexikalische und
+  grammatische Kontrolle};\\
+\item
+  das \emph{Artikulationsprogramm} mit einer \emph{Lautkontrolle}, was
+  die grammatisch strukturierte Form schließlich in eine
+  \emph{angemessene} \emph{Lautform} bringt, die sprachliche Äußerung.
+\end{itemize}
+
+Die Versprecher lassen sich nun diesen Ebenen der Sprachplanung
+zuordnen.
+
+Versprecher können nur innerhalb eines sehr \emph{engen zeitlichen
+Rahmens} stattfinden, da sie wohl durch Fehler im \emph{Arbeitsspeicher}
+des Sprechers zustande kommen (dessen Kapazität scheint für ca. 7 Silben
+zu reichen).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{klassifizierungen}{%
+\section{Klassifizierungen}\label{klassifizierungen}}
+
+Es gibt nur wenige Versprecher, die sich eindeutig in eine einzige
+Kategorie einordnen ließen. Die meisten Versprecher fallen daher in mehr
+als eine Kategorie. Aus diesem Grund sollte man Vorkommenshäufigkeiten
+(Prozentzahlen) für die verschiedenen Versprechertypen mit Vorsicht
+genießen. Die verschiedenen Klassifizierungen unterscheiden sich sowohl
+methodisch als auch terminologisch.
+
+\hypertarget{leuninger-1993-1996}{%
+\subsection{Leuninger (1993, 1996)}\label{leuninger-1993-1996}}
+
+\begin{itemize}
+\item
+  \emph{Substitutionen}: Ersetzungen aufgrund von Bedeutungs- oder
+  Formähnlichkeit. Bei der Ersetzung eines formähnlichen Wortes werden
+  strenge Regeln befolgt; so weist das falsche Wort meist die gleiche
+  Silbenzahl, gleiche oder gleich empfundene Endungen und Anfangslaute
+  etc. wie das Wort auf, das eigentlich geäußert werden sollte.
+  Beispiel: „renommiert`` statt „renoviert`` (88). Es entsteht scheinbar
+  kein neues Wort, sondern es wird eines durch das andere aufgrund von
+  Formähnlichkeit ersetzt.
+\item
+  \emph{Vertauschungen}, die bei Wörtern meist innerhalb derselben
+  Wortart ablaufen. Wörter, Teile von zusammengesetzten Wörtern, Silben
+  oder auch Laute tauschen ihren Platz. Beispiel {[}ursprünglich aus
+  Rudolf Meringers Corpora: 1895 / 1908{]}: „zwecktischer Prack`` statt
+  „praktischer Zweck`` (83).
+\item
+  Bei \emph{Antizipationen} (Vorwegnahmen) werden sprachliche Einheiten
+  in einer Äußerung vorweggenommen. Diese Einheiten können die
+  obengenannten Einheiten: Wörter, Wortbestandteile, Lautgruppen/Laute
+  sein; Beispiel: „Ich wollte sie stockbrieflich verfolgen lassen``: das
+  „o`` aus „verfolgen`` wird (hier ein substitutives Beispiel)
+  vorgezogen in der zeitlichen Serialisierung (84).
+\item
+  \emph{Postpositionen} (Nachklänge, Repetitionen; auch mit dem aus der
+  Pathologie stammenden Begriff Perseveration bezeichnet) sind das
+  Gegenstück zu den Antizipationen. Hier klingen sprachliche Elemente
+  nach, was bedeutet, dass eine Einheit, die zuvor schon geäußert wurde,
+  bei der Sprachplanung noch aktiv ist und aus diesem Grund
+  fälschlicherweise ein zweites Mal (substitutiv oder aber auch additiv)
+  verwendet wird. Hiervon betroffen können alle bereits genannten
+  Einheiten sein; Beispiel: „sozialistische Zekten`` für „sozialistische
+  Sekten`` (Leuninger 1996: 73).
+\item
+  \emph{Kontaminationen} von Syntagmen oder Wörtern. Sie gelten als die
+  spannendste Versprecherkategorie und treten (sprecherbezogen;
+  Versprechen ist idiosynkratisch) auch relativ häufig auf. Hierbei
+  vermischen sich zwei konkurrierende Elemente, wobei relevante Teile
+  beider Ausdrücke zusammengefügt werden. Beispiel für eine
+  Kontamination von Wörtern ist: „Hinwaltspunkt`` für „Hinweis/
+  Anhaltspunkt`` (98).
+\end{itemize}
+
+Ein \emph{Beispiel für die Zuordnung eines Versprechers} zu einer der
+Sprachplanungsebenen: Den Versprecher „\emph{Ich kann nicht über meine
+Haut springen}`` interpretiert Leuninger (1993: 164) als
+\emph{Kontamination} der Wendungen „\emph{Ich kann nicht über meinen
+Schatten springen}`` und „\emph{Ich kann nicht aus meiner Haut}`` und
+ordnet ihn der prädikativen Ebene zu, also der Ebene der Sprachplanung,
+auf der die Bedeutung einer Äußerung geplant wird. Die zwei an einer
+Kontamination beteiligten Einheiten (meist Wörter oder Phrasen) müssen
+bei der Sprachplanung beide präsent sein -- sonst könnten sie nicht
+miteinander verschmolzen werden.{[}6{]}
+
+Leuninger verweist ferner darauf, dass bei \emph{zweisprachig}
+aufwachsenden Kindern auch die Interaktion beider Sprachen zu
+Versprechern führen kann.
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_2.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_3.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_4.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_5.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_6.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_7.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_8.PNG}
+
+\textbf{Versprecherarten} (Beispiele aus einer Präsentation von
+\emph{Markus Steinbach}, Uni Mainz):
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Vertauschung}: Saukramer \textless-- Grausamer\\
+\item
+  \emph{Antizipation}: ich werde nun zur Abschreitung der Anträge
+  schreiten \textless-- zur Abstimmung der Anträge schreiten\\
+\item
+  \emph{Postposition}: auf das Wohl unseres Chefs aufzustoßen
+  \textless-- auf das Wohl unseres Chefs anzustoßen\\
+\item
+  \emph{Kontamination}: sich verabtschüssen \textless-- sich
+  verabschieden/tschüss sagen\\
+\item
+  \emph{Substitution}: wes Brot ich ess, des Lob ich trink \textless--
+  wes Brot ich ess, des Lob ich sing\\
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{klassifizierung-nach-stemberger}{%
+\subsubsection{Klassifizierung (nach
+Stemberger)}\label{klassifizierung-nach-stemberger}}
+
+Stembergers Klassifikationsschema. Die Tabelle ist nur im Html-Format
+sichtbar.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{versprechersammlung}{%
+\section{Versprechersammlung}\label{versprechersammlung}}
+
+Hier ist eine Versprechersammlung von Studierenden der Universität
+Maribor. Die Versprechersammlung ist nur im Html-Format sichtbar.
+
+\hypertarget{klassifizierung-mit-englischen-termini}{%
+\section{Klassifizierung mit englischen
+Termini}\label{klassifizierung-mit-englischen-termini}}
+
+\href{https://en.wikipedia.org/wiki/Speech_error\#Psycholinguistic_classification}{Wikipedia:
+Psycholinguistische Klassifikation der Versprechertypen mit englischen
+Termini und Beispielen}
+
+\href{https://en.wikipedia.org/wiki/Speech_error\#Psycholinguistic_classification}{Wikipedia:
+Betroffene Segmente oder linguistische Einheiten}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{sprachproduktionsmodelle}{%
+\section{Sprachproduktionsmodelle}\label{sprachproduktionsmodelle}}
+
+Im Gegensatz zur \emph{Sprachverarbeitung} lässt sich die
+\emph{Sprachproduktion} nicht so einfach experimentell untersuchen.
+
+Versprecher sind eine Möglichkeit, Einblick in den
+Sprachproduktionsprozess und in den Aufbau des
+\emph{Sprachproduktionssystems} im menschlichen Gehirn zu erhalten.
+
+Aus Fehlleistungen sind Rückschlüsse möglich, wie eine fehlerfreie
+Sprachproduktion funktioniert und in welchen Phasen des
+Sprachproduktionssystems es zu Konflikten zwischen den selbständig
+arbeitenden Subsystemen kommt.
+
+\hypertarget{leuningers-modell}{%
+\subsection{Leuningers Modell}\label{leuningers-modell}}
+
+\textbf{Leuningers Sprachplanungsmodell} (1993, 1996, 1998), vgl. mit
+dem Sprachproduktionsmodell von Garrett (1980) und Fromkin (1973) bei
+\href{https://en.wikiversity.org/wiki/Psycholinguistics/Models_of_Speech_Production}{Wikiversity}:
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_9.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Garrett_1980.png}
+
+\textbf{Steinbachs} Darstellung seines Sprachplanungsmodells:
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Steinbach_8.png}
+
+\hypertarget{sequentielles-modell-bock-levelt}{%
+\subsection{Sequentielles Modell (Bock \&
+Levelt)}\label{sequentielles-modell-bock-levelt}}
+
+Sprachproduktionsmodell von \textbf{Levelt, Roelofs und Mayer (1999)}:
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_11.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_12.PNG}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_13.PNG}
+
+\emph{Kritik am Sprachproduktionsmodell} von Levelt, Roelofs \& Mayer:
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_14.PNG}
+
+\hypertarget{konnektionistische-modell}{%
+\subsection{Konnektionistische Modell}\label{konnektionistische-modell}}
+
+Konkurrenzmodell von \emph{Dell (1986)}, ein \textbf{konnektionistisches
+Modell} mit Feedback-Schleife: parallele Verarbeitung
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Dell_error_model_2.png}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Dell_error_model_1.png}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Dell_error_model_3.png}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_15.PNG}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{stemberger-1993}{%
+\subsection{Stemberger (1993)}\label{stemberger-1993}}
+
+\textbf{Einflussfaktoren}
+
+\begin{itemize}
+\tightlist
+\item
+  sprachexterne Faktoren
+\item
+  sprachinterne Faktoren
+\end{itemize}
+
+\hypertarget{sprachexterne-faktoren}{%
+\subsubsection{Sprachexterne Faktoren}\label{sprachexterne-faktoren}}
+
+\begin{itemize}
+\tightlist
+\item
+  kognitive Belastung (cognitive load)
+\item
+  Verdrängung / unterdrückte Gedanken (Freud)
+\item
+  Sprechtempo
+\item
+  Müdigkeit
+\item
+  Betäubung (Alkohol, Drogen)
+\end{itemize}
+
+\hypertarget{sprachinterne-faktoren}{%
+\subsubsection{Sprachinterne Faktoren}\label{sprachinterne-faktoren}}
+
+Diese Faktoren nehmen Bezug darauf, wie sprachliche Elemente im Gehirn
+repräsentiert sind und welche Bestandteile der Botschaft (chunk) bereits
+geplant und ausgeführt wurden.
+
+Die meisten Faktoren betreffen die \textbf{Ähnlichkeit} zwischen
+sprachlichen Einheiten.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Paralellitäts-Beschränkung}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Versprecher betrifft zwei phonologische Elemente in parallelen
+    Teilen einer Silbe (beide im Silbenanlaut, beide im Silbenkern oder
+    beide im Silbenauslaut);
+  \item
+    Konsonanten werden durch Konsonanten ausgetauscht, Vokale durch
+    Vokale;
+  \item
+    am stärksten wirkt die Parallelitäts-Beschränkung zwischen Wörtern,
+    weniger stark innerhalb eines Wortes.
+  \end{itemize}
+\item
+  \textbf{Silbenstruktur}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    phonologische Versprecher halten sich an die einzelsprachlichen
+    Beschränkungen;
+  \item
+    stärkere Integration in die Silbenstruktur macht die Veränderung
+    eines sprachlichen Element weniger wahrscheinlich;
+  \item
+    Vokal und auslautende Konsonant(en) bilden gemeinsam den Silbenreim;
+    Versprecherrate im Reim ist von der Sonoritäthierarchie abhängig
+    (nicht jedoch die Fehlerrate zwischen Anlaut und Vokal);
+  \item
+    Der Zusammenhalt (Kohesivität) der Silbenbestandteile (z.B. Reim)
+    ist auch in Mischkonstruktionen (Kontaminationen, Blends) zu
+    beobachten: die Nahtstelle zwischen den beiden Zielwörtern (target
+    words) ist gewöhnlich eine Silbengrenze oder liegt zwischen
+    Silbenanlaut und Reim, selten zwischen Vokal und Silbenauslaut.
+  \end{itemize}
+\item
+  \textbf{Position im Wort}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Anfangsposition im Wort ist wichtig für die Wahrnehmung
+    (Perzeption); die größere Fehlerrate bei wort-initialen Konsonanten
+    könnte gemäß Dell (1986) an ihrem stärkeren Aktivierungsniveau
+    liegen; dieses bahnt konkurrierenden wort-initialen Konsonanten den
+    Weg in die Silbe (und eher zu Fehlern);
+  \item
+    die Position im Wort scheint für das Auftreten von Versprechern
+    wichtiger zu sein als die Position in der Silbe (obwohl schwer
+    unterscheidbar).
+  \end{itemize}
+\item
+  \textbf{Segment-Ähnlichkeit}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Versprecher wahrscheinlicher, wenn phonologische Segmente ähnliche
+    Merkmale aufweisen: z.B. /p/ und /k/ eher als /v/ und /k/.
+  \end{itemize}
+\item
+  \textbf{Wiederholungseffekt}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Wiederholungseffekt (repetition effect) zeigt die Bedeutsamkeit der
+    segmentalen Ähnlichkeit für das Auftreten von Versprechern: wenn ein
+    Phonem in zwei benachbarten Wörtern vorkommt, ist ein Fehler
+    wahrscheinlich (z.B. Substitution oder Deletion);
+  \item
+    auch lexikalische Ähnlichkeit kann eine Wiederholung eines Phonems
+    herausfordern: wenn zwei Wörter im Satz dasselbe Phonem enthalten,
+    dann ist eine Veränderung (Substitution, Addition, Deletion)
+    wahrscheinlicher. Dies scheint auch davon abzuhängen, wie stark die
+    Ähnlichkeit der phonologischen Elemente in zwei Wörtern (in
+    parallelen Silbenpositionen) ist. Die interagierender Wörter gehören
+    oft auch zu derselben Wortklasse (z.B. beide sind Verben, beide
+    Substantive).
+  \end{itemize}
+\item
+  \textbf{Parallele morphologische Struktur}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Präfixe interagieren gewöhnlich mit Präfixen, Suffixe mit Suffixen
+    und Infixe mit Infixen;
+  \item
+    Enkodierung von Bedeutungen ist jedoch in den Sprachen sehr
+    unterschiedlich.
+  \end{itemize}
+\item
+  \textbf{Frequenz (Häufigkeit)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    mehr Fehler mit seltener vorkommenden sprachlichen Elementen;
+  \item
+    Frequenz eines Lemmas korreliert mit lexikalischen Versprechern,
+    aber auch mit morphologischen und phonologischen;
+  \item
+    die Häufigkeit eines phonoligischen Elements beeinflusst die
+    phonologische Fehlerrate;
+  \item
+    sowohl Typenfrequenz (d.h. die Häufigkeit verschiedener Wortformen)
+    als auch Tokenfrequenz (Gebrauchshäufigkeit einer Wortform) sind von
+    Bedeutung für die Fehlerrate;
+  \item
+    die Typen- und Tokenfrequenz von Phrsenstrukturen mag auch eine
+    Rolle spielen bei syntaktischen Fehlern.
+  \end{itemize}
+\item
+  \textbf{Markiertheit (oder: Natürlichkeit)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    von Jakobson (1943) vorgeschlagen: markierte sprachliche Elemente
+    zeigen die Tendenz, von weniger markierten (unmarkierten) ersetzt zu
+    werden (z.B. im kindlichen Spracherwerb; Aphasie).
+  \end{itemize}
+\item
+  \textbf{Neigung zur Hinzufügung (Addition Bias)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    in kontextuell bedingten Fehlern (syntagmatischen Fehlern) sind
+    Hinzufügungsfehler wesentlich häufiger als Tilgungsfehler;
+  \item
+    in nicht-kontextuell bedingten Fehlern (paradigmatischen Fehlern)
+    sind dagegen eher Tilgungen zu beobachten.
+  \end{itemize}
+\item
+  \textbf{Distanz}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    geringere Distanz ermöglicht eher Versprecher: in phonologischen
+    Fehlern stehen die betroffenen Konsonanten gewöhnlich weniger als
+    sieben Wörter oder sieben Silben auseinander;
+  \item
+    ob Wörter in derselben syntaktischen Phrase auftreten; meist kommen
+    zwei interagierende Wörter in derselben übergeordneten Phrase (major
+    syntactic phrase) vor;
+  \item
+    interagierende Wörter in demselben Satz.
+  \end{itemize}
+\item
+  \textbf{Neigung zur Authentizität (Lexical Bias)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    phonologische Versprecher sehen gewöhnlich wie richtige Wörter in
+    einer Sprache aus, seltener nicht wohlgeformt gemäß einer Sprache.
+  \end{itemize}
+\item
+  \textbf{Stärke (magnitude)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    die Faktoren werden in Verwechslungsfehlern (Metathese, exchange
+    error) verstärkt;
+  \item
+    die Faktoren haben einen größeren Effekt auf weniger übliche
+    Versprechertypen.
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{betroffene-sprachebenen}{%
+\subsection{Betroffene Sprachebenen}\label{betroffene-sprachebenen}}
+
+Beispiele aus einer Präsentation von \emph{Markus Steinbach} (Uni
+Mainz).
+
+\textbf{Phonologische Versprecher}\\
+(1) mein Kralli putzt \textless-- mein Pulli kratzt\\
+(2) da haben mir die Zie geknittert \textless-- da haben mir die Knie
+gezittert\\
+(3) Stöhnsteuerkarte \textless-- Lohnsteuerkarte\\
+(4) eine Cole Dosa \textless-- eine Dose Cola\\
+(5) schlecken sie den Stüssel ins Loch \textless-- stecken sie den
+Schlüssel ins Loch\\
+(6) ich komme vorgen Vormittag \textless-- ich komme morgen Vormittag\\
+(7) wieso ist schon wieder der Kapierer kaputt \textless-- der Kopierer
+kaputt\\
+(8) der Dichter und sein Henker \textless-- der Richter und sein
+Henker\\
+
+\textbf{Morphologische Versprecher}\\
+(1) buddhistische Standesamt \textless-- statistisches Bundesamt\\
+(2) es wird hinten ein unselbständiges Element angefixt, ein Suffix
+\textless-- es wird hinten ein unselbständiges Element angefügt, ein
+Suffix\\
+(3) Es wird wieder alles irgendwo hochsterilisiert \textless- es wird
+wieder alles irgendwo hochstilisiert\\
+(4) die gängige Ausrede für Herr \textless-- die gängige Anrede für
+Herr\\
+
+\textbf{Morphosyntaktische Versprecher}\\
+(1) da plötzlich stürzt aus einem Haus mit fliegenden Weibern ein Haar
+heraus \textless-- \ldots{} mit fliegenden Haaren ein Weib heraus\\
+(2) es gibt Formen von Kriminalität, die importiert zu sein scheint
+\textless-- die importiert zu sein scheinen\\
+(3) ein Ende der Unruhen sind nicht abzusehen \textless-- ein Ende der
+Unruhen ist nicht abzusehen\\
+(4) für jedes geäußerte Wort müssten dann eine Mehrzahl von Wörtern
+geäußert werden \textless-- für jedes geäußerte Wort müsste dann
+\ldots{}\\
+
+\textbf{Semantische Versprecher}\\
+(1) sich verabtschüssen \textless-- sich verabschieden/tschüss sagen\\
+(2) das Buch hat auch mehrere Auflagen erlitten, erfahren mehrere
+Auflagen erfahren\\
+(3) als ich auf die Geburt kam \textless-- als ich auf die Welt
+kam/geboren wurde\\
+(4) ich bin fast aus allen Socken gefallen \textless-- ich bin fast aus
+allen Wolken gefallen/von den Socken sein\\
+(5) das ist wirklich ein dickes Stück \textless-- ein starkes Stück/ein
+dickes Ding\\
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{versprecherkorrekturen}{%
+\subsection{Versprecherkorrekturen}\label{versprecherkorrekturen}}
+
+\includegraphics[width=1\textwidth,height=\textheight]{./pictures/Versprechertypen_10.PNG}
+
+Fehlerakkomodation nach sprachlichen Ebenen geordnet (Markus Steinbach,
+Mainz):
+
+\textbf{Morphologische Akkommodation}\\
+(1) Männer können nämlich noch trink-en, wenn sie was ge-fahr-en haben
+\textless-- (noch fahren, wenn sie was getrunken haben)\\
+nicht: \emph{nämlich noch trunken, wenn sie was gefahren haben\\
+(2) ge-monat-ete Arbeit-en \textless-- (gearbeitete Monat-e)\\
+nicht: }Arbeit-e\\
+(3) dass er mit dem Zug zieh-t \textless-- (mit der Masse zieht)\\
+nicht: *dass er mit der Zieh zieh\\
+
+\textbf{Morphosyntaktische Akkommodation}\\
+(1) irgendwie habe ich heute eine Zunge im Knoten \textless-- einen
+Knoten in der Zunge\\
+nicht: \emph{irgendwie habe ich heute einen Zunge in der Knoten\\
+(2) bis er es bei dir abhol-t \textless-- bis du es bei ihm abhol-st\\
+nicht: }bis ihm es bei du abholst\\
+
+\textbf{Lexikalische Akkommodation}\\
+(1) Stöhnsteuerkarte \textless-- Lohnsteuerkarte\\
+nicht: *Stohnsteuerkarte\\
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Helen Leuninger: Reden ist Schweigen, Silber ist Gold. Gesammelte
+Versprecher. 2. Auflage. Ammann, Zürich 1993. ISBN 3-250-10209-1.
+
+Helen Leuninger: Danke und Tschüss fürs Mitnehmen. Gesammelte
+Versprecher und eine kleine Theorie ihrer Korrekturen. Ammann, Zürich
+1996. ISBN 3-250-10323-3 (beide Bücher von Leuninger enthalten auch eine
+linguistische Theorie der Versprecher auf der Grundlage eines von ihr
+entworfenen Sprachplanungsmodells).
+
+Rudolf Meringer, Karl Mayer: Versprechen und Verlesen. Eine
+psychologisch-linguistische Studie. Göschen'sche Verlagshandlung,
+Stuttgart 1895. (Neudruck: A. Cutler, D. Fay (eds.): Amsterdam Studies
+in the Theory and History of Linguistic Science II: Classics in
+Psycholinguistics, Vol. 2. Benjamins, Amsterdam 1978).
+
+Nora Wiedenmann: Versprecher. Phänomene und Daten {[}1--78;
+Bibliographie zum Versprechen und zu verwandten Phänomenen: 79--110;
+Appendix: 1--265{]}. Mit Materialien auf Diskette. Wissenschaftsverlag
+Edition Praesens, Wien 1998. ISBN 3-901126-91-0.
+
+Joseph P. Stemberger (1993)
+
 \part{Normabweichungen und Normwandel}
 
 \hypertarget{sec-spracherwerb}{%
@@ -1242,10 +1898,39 @@ Einige Hinweise für \emph{\texttt{selbständige}} Textanalysen. 🤗
 
 \{\{ \textless{} include \_WM\_Presentation.qmd \textgreater{} \}\}
 
+\hypertarget{fontawesome}{%
+\section{Fontawesome}\label{fontawesome}}
+
+In the terminal use:\\
+quarto install quarto-ext/fontawesome
+
+This extension folder has to be installed in every project.
+
+After installation, use curly braces to include fa icons / or use html
+code (e.g.~copy free icons from https://fontawesome.com , namely:
+https://fontawesome.com/start).
+
+\faIcon{envelope} - the code for an envelope
+
+\faIcon{facebook} - the code for brands like facebook
+
+For icon-styling go to https://github.com/quarto-ext/fontawesome:
+
+\faIcon{windows}
+
+On https://fontawesome.com/docs, there is information on how to change
+the color of the icons, e.g.~in the Styling section, Basics.
+
+{ }
+
+Rotated icons:
+
+Possible to include animated icons:
+
 \hypertarget{callout-types}{%
 \section{Callout Types}\label{callout-types}}
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colback=white, breakable, toprule=.15mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, rightrule=.15mm, opacitybacktitle=0.6, toptitle=1mm, titlerule=0mm, left=2mm, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, arc=.35mm, breakable, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colframe=quarto-callout-note-color-frame, leftrule=.75mm, rightrule=.15mm, coltitle=black, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, left=2mm, colback=white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, opacityback=0]
 
 Note that there are five types of callouts, including: \texttt{note},
 \texttt{warning}, \texttt{important}, \texttt{tip}, and
@@ -1253,25 +1938,25 @@ Note that there are five types of callouts, including: \texttt{note},
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colback=white, breakable, toprule=.15mm, bottomrule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip With Caption / Tipp mit Titel}, rightrule=.15mm, opacitybacktitle=0.6, toptitle=1mm, titlerule=0mm, left=2mm, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, colframe=quarto-callout-tip-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, arc=.35mm, breakable, opacitybacktitle=0.6, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Tip With Caption / Tipp mit Titel}, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, rightrule=.15mm, coltitle=black, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, left=2mm, colback=white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, opacityback=0]
 
 This is an example of a callout with a caption.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colback=white, breakable, toprule=.15mm, bottomrule=.15mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, rightrule=.15mm, opacitybacktitle=0.6, toptitle=1mm, titlerule=0mm, left=2mm, colbacktitle=quarto-callout-important-color!10!white, bottomtitle=1mm, colframe=quarto-callout-important-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, arc=.35mm, breakable, opacitybacktitle=0.6, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, colframe=quarto-callout-important-color-frame, leftrule=.75mm, rightrule=.15mm, coltitle=black, colbacktitle=quarto-callout-important-color!10!white, bottomtitle=1mm, left=2mm, colback=white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, opacityback=0]
 
 Das ist wichtig.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colback=white, breakable, toprule=.15mm, bottomrule=.15mm, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, rightrule=.15mm, opacitybacktitle=0.6, toptitle=1mm, titlerule=0mm, left=2mm, colbacktitle=quarto-callout-warning-color!10!white, bottomtitle=1mm, colframe=quarto-callout-warning-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, arc=.35mm, breakable, opacitybacktitle=0.6, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, colframe=quarto-callout-warning-color-frame, leftrule=.75mm, rightrule=.15mm, coltitle=black, colbacktitle=quarto-callout-warning-color!10!white, bottomtitle=1mm, left=2mm, colback=white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, opacityback=0]
 
 Warning
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, coltitle=black, colback=white, breakable, toprule=.15mm, bottomrule=.15mm, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Expand To Learn About Collapse}, rightrule=.15mm, opacitybacktitle=0.6, toptitle=1mm, titlerule=0mm, left=2mm, colbacktitle=quarto-callout-caution-color!10!white, bottomtitle=1mm, colframe=quarto-callout-caution-color-frame, arc=.35mm, leftrule=.75mm, opacityback=0]
+\begin{tcolorbox}[enhanced jigsaw, titlerule=0mm, arc=.35mm, breakable, opacitybacktitle=0.6, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Expand To Learn About Collapse}, colframe=quarto-callout-caution-color-frame, leftrule=.75mm, rightrule=.15mm, coltitle=black, colbacktitle=quarto-callout-caution-color!10!white, bottomtitle=1mm, left=2mm, colback=white, toptitle=1mm, bottomrule=.15mm, toprule=.15mm, opacityback=0]
 
 This is an example of a `folded' caution callout that can be expanded by
 the user. You can use \texttt{collapse="true"} to collapse it by default
